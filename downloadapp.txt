@@ -1,0 +1,17 @@
+<script>
+ try {
+  if(window.location.search.toLowerCase().indexOf("dapp") > -1 || window.location.hash.toLowerCase().indexOf("app") > -1) {
+   if(navigator.userAgent.toLowerCase().indexOf("android") > -1) {
+    window.location.href = 'https://play.google.com/store/apps/details?id=com.myth.nwselk';
+   }
+
+   if(navigator.userAgent.toLowerCase().indexOf("iphone") > -1) {
+    window.location.href = 'https://apps.apple.com/app/';
+   }
+   // console.log(navigator.userAgent)
+  }
+ }
+ catch(e) {
+
+ }
+</script>

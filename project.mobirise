@@ -1,0 +1,1735 @@
+{
+  "settings": {
+    "name": "Nwselk",
+    "currentPage": "terms.html",
+    "theme": {
+      "name": "mobirise5",
+      "title": "Mobirise 5",
+      "styling": {
+        "primaryColor": "#4b005f",
+        "secondaryColor": "#4b005f",
+        "successColor": "#40b0bf",
+        "infoColor": "#47b5ed",
+        "warningColor": "#FFE161",
+        "dangerColor": "#ff9966",
+        "mainFont": "Jost",
+        "display1Font": "CoconNextArabic-Bold",
+        "display1Size": "4",
+        "display2Font": "CoconNextArabic-Bold",
+        "display2Size": 3,
+        "display5Font": "CoconNextArabic-Bold",
+        "display5Size": 2.2,
+        "display7Font": "CoconNextArabic-Bold",
+        "display7Size": "1.2",
+        "display4Font": "CoconNextArabic-Bold",
+        "display4Size": 1.1,
+        "isRoundedButtons": true,
+        "isGhostButtonBorder": false,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": true
+      },
+      "additionalSetColors": [
+        "#be2226",
+        "#4b005f"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "5.0.2",
+    "siteFonts": [
+      {
+        "css": "'Jost', sans-serif",
+        "name": "Jost",
+        "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      },
+      {
+        "css": "'CoconNextArabic-Bold'",
+        "name": "CoconNextArabic-Bold",
+        "url": null,
+        "file": "@PROJECT_PATH@/fonts/CoconNextArabic-Bold/font.ttf"
+      }
+    ],
+    "uniqCompNum": 49,
+    "versionPublish": "5.6.11",
+    "imageResize": true,
+    "screenshot": "screenshot.png",
+    "publishType": "local",
+    "robotsSwitcher": true,
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
+    "sitemapSwitcher": true,
+    "siteUrl": "https://nwselk.com",
+    "sitemapSwitcherAuto": "on",
+    "favicon": false,
+    "mbrsiteDomain": "4tqmbgfirj",
+    "cookiesAlert": false,
+    "gdpr": false,
+    "publishChangesOnly": false,
+    "publishPath": "file:///C:/Users/Administrator/Desktop/r"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "تطبيق نوصلك",
+        "meta_descr": "تطبيق نوصلك يُعنى بتقديم خدمات المساعدة على الطريق من خلال التطبيق المتوفر مجانا على الأجهزة اللوحية و الهواتف المحمولة، و يعمل كمنصة إلكترونية تفاعلية لحظية، تعتمد على تقنية الإنترنت، و خدمة تحديد المواقع من أجل ربط المستخدمين المحتاجين بأي خدمة مرتبطة بالنقل و المساعدة على الطريق مع مزوّدي الخدمة، من خلال تطبيق مُوَجّه للهواتف الذكية.",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/-icon-2-128x128.png"
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)",
+              ".carousel": {
+                "height": "800px",
+                "img": {
+                  "width": "100%",
+                  "height": "100%",
+                  "object-fit": "cover"
+                }
+              },
+              ".carousel-item, .carousel-inner": {
+                "height": "100%"
+              }
+            },
+            "& when (@fullScreen)": {
+              "padding-top": "0",
+              "padding-bottom": "0",
+              ".carousel": {
+                "width": "100%"
+              },
+              ".carousel-inner": {
+                "display": "flex",
+                "align-content": "center",
+                "align-items": "center"
+              },
+              ".carousel-item img": {
+                "height": "100vh",
+                "object-fit": "cover"
+              }
+            },
+            "background-color": "@bgColor",
+            ".carousel-caption": {
+              "bottom": "40px"
+            },
+            ".mobi-mbri-arrow-next": {
+              "margin-left": "5px"
+            },
+            ".mobi-mbri-arrow-prev": {
+              "margin-right": "5px"
+            },
+            ".carousel-control:hover": {
+              "background": "#1b1b1b",
+              "color": "#fff",
+              "opacity": "1"
+            },
+            ".item-wrapper": {
+              "width": "100%"
+            },
+            "@media (max-width: 767px)": {
+              ".container .carousel-control": {
+                "margin-bottom": "0"
+              },
+              ".content-slider-wrap": {
+                "width": "100% !important"
+              }
+            },
+            ".container .carousel-indicators": {
+              "margin-bottom": "3px"
+            },
+            ".carousel-control": {
+              "top": "50%",
+              "width": "60px",
+              "height": "60px",
+              "margin-top": "-1.5rem",
+              "font-size": "22px",
+              "background-color": "rgba(0, 0, 0, 0.5)",
+              "border": "2px solid #fff",
+              "border-radius": "50%",
+              "transition": "all 0.3s",
+              "&.carousel-control-prev": {
+                "left": "0",
+                "margin-left": "2.5rem"
+              },
+              "&.carousel-control-next": {
+                "right": "0",
+                "margin-right": "2.5rem"
+              },
+              "@media (max-width: 767px)": {
+                "top": "auto",
+                "bottom": "1rem"
+              }
+            },
+            ".carousel-indicators": {
+              "position": "absolute",
+              "bottom": "0",
+              "margin-bottom": "1.5rem !important",
+              "li": {
+                "max-width": "15px",
+                "height": "15px",
+                "width": "15px",
+                "max-height": "15px",
+                "margin": "3px",
+                "background-color": "rgba(0, 0, 0, 0.5)",
+                "border": "2px solid #fff",
+                "border-radius": "50%",
+                "opacity": "0.5",
+                "transition": "all 0.3s",
+                "&.active, &:hover": {
+                  "opacity": "0.9"
+                },
+                "&::after, &::before": {
+                  "content": "none"
+                }
+              },
+              "&.ie-fix": {
+                "left": "50%",
+                "display": "block",
+                "width": "60%",
+                "margin-left": "-30%",
+                "text-align": "center"
+              },
+              "@media (max-width: 768px)": {
+                "display": "none !important"
+              }
+            }
+          },
+          "_name": "slider1",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"slider1\" group=\"Sliders & Galleries\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n    <mbr-parameters>\n        <input type=\"id\" name=\"sliderId\">\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"7\" condition=\"!fullScreen\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"8\" condition=\"!fullScreen\">\n        <header>Carousel</header>\n        <input type=\"checkbox\" title=\"Fade Effect\" name=\"fade\" checked>\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\" checked>\n        <input type=\"range\" title=\"Interval\" name=\"interval\" min=\"3\" max=\"10\" value=\"4\" step=\"1\" condition=\"autoplay\">\n        <header>Slide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showCaption\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\" selected>\n    </mbr-parameters>\n    <div id=\"{{sliderId}}\" class=\"carousel slide\" mbr-class=\"{'carousel-fade': fade}\" data-ride=\"{{autoplay ? 'carousel' : false}}\" data-bs-ride=\"{{autoplay ? 'carousel' : false}}\" data-interval=\"{{interval*1000}}\" data-bs-interval=\"{{interval*1000}}\">\n        <ol class=\"carousel-indicators\">\n            <li data-target=\"#{{sliderId}}\" data-bs-target=\"#{{sliderId}}\" data-slide-to=\"0\" data-bs-slide-to=\"0\" class=\"active\"></li>\n            <li data-target=\"#{{sliderId}}\" data-bs-target=\"#{{sliderId}}\" data-slide-to=\"1\" data-bs-slide-to=\"1\"></li><li data-target=\"#{{sliderId}}\" data-bs-target=\"#{{sliderId}}\" data-slide-to=\"2\" data-bs-slide-to=\"2\"></li><li data-target=\"#{{sliderId}}\" data-bs-target=\"#{{sliderId}}\" data-slide-to=\"3\" data-bs-slide-to=\"3\"></li><li data-target=\"#{{sliderId}}\" data-bs-target=\"#{{sliderId}}\" data-slide-to=\"4\" data-bs-slide-to=\"4\"></li><li data-target=\"#{{sliderId}}\" data-bs-target=\"#{{sliderId}}\" data-slide-to=\"5\" data-bs-slide-to=\"5\"></li><li data-target=\"#{{sliderId}}\" data-bs-target=\"#{{sliderId}}\" data-slide-to=\"6\" data-bs-slide-to=\"6\"></li><li data-target=\"#{{sliderId}}\" data-bs-target=\"#{{sliderId}}\" data-slide-to=\"7\" data-bs-slide-to=\"7\"></li><li data-target=\"#{{sliderId}}\" data-bs-target=\"#{{sliderId}}\" data-slide-to=\"8\" data-bs-slide-to=\"8\"></li>\n            \n        </ol>\n        <div class=\"carousel-inner\">\n            <div class=\"carousel-item slider-image item active\">\n                <div class=\"item-wrapper\">\n                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/web%20(1)-1900x1069.png\" data-slide-to=\"0\" data-bs-slide-to=\"0\">\n                    <div class=\"mbr-overlay\" mbr-if=\"overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n                    </div>\n                    <div class=\"carousel-caption\" mbr-if=\"showCaption || showText\">\n                        <h5 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-if=\"showCaption\" mbr-theme-style=\"display-1\"><b>إمكانيات جديدة</b></h5>\n                        <p class=\"mbr-section-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-5\">Click on the image to edit slides.</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"carousel-item slider-image item\">\n                <div class=\"item-wrapper\">\n                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/web%20(2)-1900x1069.png\" data-slide-to=\"1\" data-bs-slide-to=\"1\">\n                    <div class=\"mbr-overlay\" mbr-if=\"overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n                    </div>\n                    <div class=\"carousel-caption\" mbr-if=\"showCaption || showText\">\n                        <h5 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-if=\"showCaption\" mbr-theme-style=\"display-5\">\n                            <b>Full-Width Slider</b>\n                        </h5>\n                        <p class=\"mbr-section-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\">Click on the image to edit slides.</p>\n                    </div>\n                </div>\n            </div><div class=\"carousel-item slider-image item\">\n                <div class=\"item-wrapper\">\n                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/web%20(6)-1900x1069.png\" data-slide-to=\"2\" data-bs-slide-to=\"2\">\n                    <div class=\"mbr-overlay\" mbr-if=\"overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n                    </div>\n                    <div class=\"carousel-caption\" mbr-if=\"showCaption || showText\">\n                        <h5 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-if=\"showCaption\" mbr-theme-style=\"display-5\">\n                            <b>Full-Width Slider</b>\n                        </h5>\n                        <p class=\"mbr-section-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\">Click on the image to edit slides.</p>\n                    </div>\n                </div>\n            </div><div class=\"carousel-item slider-image item\">\n                <div class=\"item-wrapper\">\n                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/web%20(3)-1900x1069.png\" data-slide-to=\"3\" data-bs-slide-to=\"3\">\n                    <div class=\"mbr-overlay\" mbr-if=\"overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n                    </div>\n                    <div class=\"carousel-caption\" mbr-if=\"showCaption || showText\">\n                        <h5 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-if=\"showCaption\" mbr-theme-style=\"display-5\">\n                            <b>Full-Width Slider</b>\n                        </h5>\n                        <p class=\"mbr-section-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\">Click on the image to edit slides.</p>\n                    </div>\n                </div>\n            </div><div class=\"carousel-item slider-image item\">\n                <div class=\"item-wrapper\">\n                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/web%20(4)-1900x1069.png\" data-slide-to=\"4\" data-bs-slide-to=\"4\">\n                    <div class=\"mbr-overlay\" mbr-if=\"overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n                    </div>\n                    <div class=\"carousel-caption\" mbr-if=\"showCaption || showText\">\n                        <h5 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-if=\"showCaption\" mbr-theme-style=\"display-5\">\n                            <b>Full-Width Slider</b>\n                        </h5>\n                        <p class=\"mbr-section-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\">Click on the image to edit slides.</p>\n                    </div>\n                </div>\n            </div><div class=\"carousel-item slider-image item\">\n                <div class=\"item-wrapper\">\n                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/web%20(5)-1900x1069.png\" data-slide-to=\"5\" data-bs-slide-to=\"5\">\n                    <div class=\"mbr-overlay\" mbr-if=\"overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n                    </div>\n                    <div class=\"carousel-caption\" mbr-if=\"showCaption || showText\">\n                        <h5 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-if=\"showCaption\" mbr-theme-style=\"display-5\">\n                            <b>Full-Width Slider</b>\n                        </h5>\n                        <p class=\"mbr-section-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\">Click on the image to edit slides.</p>\n                    </div>\n                </div>\n            </div><div class=\"carousel-item slider-image item\">\n                <div class=\"item-wrapper\">\n                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/web%20(7)-1900x1069.png\" data-slide-to=\"6\" data-bs-slide-to=\"6\">\n                    <div class=\"mbr-overlay\" mbr-if=\"overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n                    </div>\n                    <div class=\"carousel-caption\" mbr-if=\"showCaption || showText\">\n                        <h5 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-if=\"showCaption\" mbr-theme-style=\"display-5\">\n                            <b>Full-Width Slider</b>\n                        </h5>\n                        <p class=\"mbr-section-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\">Click on the image to edit slides.</p>\n                    </div>\n                </div>\n            </div><div class=\"carousel-item slider-image item\">\n                <div class=\"item-wrapper\">\n                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/web%20(8)-1900x1069.png\" data-slide-to=\"7\" data-bs-slide-to=\"7\">\n                    <div class=\"mbr-overlay\" mbr-if=\"overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n                    </div>\n                    <div class=\"carousel-caption\" mbr-if=\"showCaption || showText\">\n                        <h5 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-if=\"showCaption\" mbr-theme-style=\"display-5\">\n                            <b>Full-Width Slider</b>\n                        </h5>\n                        <p class=\"mbr-section-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\">Click on the image to edit slides.</p>\n                    </div>\n                </div>\n            </div><div class=\"carousel-item slider-image item\">\n                <div class=\"item-wrapper\">\n                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/web%20(9)-1900x1069.png\" data-slide-to=\"8\" data-bs-slide-to=\"8\">\n                    <div class=\"mbr-overlay\" mbr-if=\"overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n                    </div>\n                    <div class=\"carousel-caption\" mbr-if=\"showCaption || showText\">\n                        <h5 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-if=\"showCaption\" mbr-theme-style=\"display-5\">\n                            <b>Full-Width Slider</b>\n                        </h5>\n                        <p class=\"mbr-section-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\">Click on the image to edit slides.</p>\n                    </div>\n                </div>\n            </div>\n            \n        </div>\n        <a class=\"carousel-control carousel-control-prev\" href=\"#{{sliderId}}\" role=\"button\" data-slide=\"prev\" data-bs-slide=\"prev\">\n            <span class=\"mobi-mbri mobi-mbri-arrow-prev\" aria-hidden=\"true\"></span>\n            <span class=\"sr-only visually-hidden\">Previous</span>\n        </a>\n        <a class=\"carousel-control carousel-control-next\" href=\"#{{sliderId}}\" role=\"button\" data-slide=\"next\" data-bs-slide=\"next\">\n            <span class=\"mobi-mbri mobi-mbri-arrow-next\" aria-hidden=\"true\"></span>\n            <span class=\"sr-only visually-hidden\">Next</span>\n        </a>\n    </div>\n</section>",
+          "_cid": "t0JHat6h3a",
+          "_anchor": "slider1-x",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@fullWidth)": {
+              ".text-wrapper": {
+                "padding": "1rem"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".image-wrapper": {
+                "margin-bottom": "1rem"
+              }
+            },
+            "img": {
+              "width": "100%"
+            },
+            "@media (min-width: 992px)": {
+              ".text-wrapper": {
+                "padding": "2rem"
+              }
+            },
+            ".mbr-section-title": {
+              "text-align": "right",
+              "color": "#000000"
+            },
+            ".mbr-text": {
+              "text-align": "center",
+              "color": "#000000"
+            }
+          },
+          "_name": "image1",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image1\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"4\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Description\" name=\"showDescription\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/%D8%A7%D9%84%D9%87%D9%88%D9%8A%D8%A9%20%D9%83%D8%A7%D9%85%D9%84%D8%A9-37-1043x2185.png\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#bbbbbb\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"row align-items-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/%D8%A7%D9%84%D9%87%D9%88%D9%8A%D8%A9%20%D9%83%D8%A7%D9%85%D9%84%D8%A9_light%20copy-2133x2132.png\" alt=\"Mobirise\">\n                    <p class=\"mbr-description mbr-fonts-style pt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showDescription\" data-app-selector=\".mbr-description\">&nbsp;</p>\n                </div>\n            </div>\n            <div class=\"col-12\" mbr-class=\"{'col-lg' : !fullWidth, 'col-lg-4' : fullWidth &amp;&amp; textWidth >= 6, 'col-lg-6' : fullWidth &amp;&amp; textWidth <= 5}\">\n                <div class=\"text-wrapper\">\n                    <h3 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\"><b>من نحن</b></h3>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">تطبيق نوصلك يُعنى بتقديم خدمات المساعدة على الطريق من خلال التطبيق المتوفر مجانا على الأجهزة اللوحية و الهواتف المحمولة، و يعمل كمنصة إلكترونية تفاعلية لحظية، تعتمد على تقنية الإنترنت، و خدمة تحديد المواقع من أجل ربط المستخدمين المحتاجين بأي خدمة مرتبطة بالنقل و المساعدة على الطريق مع مزوّدي الخدمة، من خلال تطبيق مُوَجّه للهواتف الذكية<br></p><div style=\"direction: rtl;\"></div><p></p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sYzzF7sYco",
+          "_anchor": "image1-r",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@sticky)": {
+              ".navbar-dropdown": {
+                "position": "relative !important"
+              }
+            },
+            "& when (@sticky)": {
+              "z-index": "1000",
+              "width": "100%",
+              "& when not (@transparent)": {
+                "position": "relative",
+                "min-height": "60px"
+              },
+              "nav.navbar": {
+                "position": "fixed"
+              }
+            },
+            ".dropdown-item:before": {
+              "font-family": "Moririse2 !important",
+              "content": "'\\e966'",
+              "display": "inline-block",
+              "width": "0",
+              "position": "absolute",
+              "left": "1rem",
+              "top": "0.5rem",
+              "margin-right": "0.5rem",
+              "line-height": "1",
+              "font-size": "inherit",
+              "vertical-align": "middle",
+              "text-align": "center",
+              "overflow": "hidden",
+              "transform": "scale(0, 1)",
+              "transition": "all 0.25s ease-in-out"
+            },
+            ".dropdown-menu": {
+              "padding": "0"
+            },
+            ".dropdown-item": {
+              "border-bottom": "1px solid #e6e6e6",
+              "&:hover, &:focus": {
+                "background": "@primaryColor !important",
+                "color": "white !important"
+              }
+            },
+            ".nav-dropdown .link": {
+              "padding": "0 0.3em !important",
+              "margin": ".667em 1em !important"
+            },
+            ".nav-dropdown .link.dropdown-toggle::after": {
+              "margin-left": "0.5rem",
+              "margin-top": "0.2rem"
+            },
+            ".nav-link": {
+              "position": "relative"
+            },
+            ".container": {
+              "display": "flex",
+              "margin": "auto"
+            },
+            ".iconfont-wrapper": {
+              "color": "@iconsColor !important",
+              "font-size": "1.5rem",
+              "padding-right": ".5rem"
+            },
+            ".navbar-caption": {
+              "padding-right": "4rem"
+            },
+            ".navbar-nav": {},
+            ".dropdown-menu, .navbar.opened": {
+              "background": "@menuBgColor !important"
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".dropdown .dropdown-menu .dropdown-item": {
+              "width": "auto",
+              "transition": "all 0.25s ease-in-out",
+              "&::after": {
+                "right": "0.5rem"
+              },
+              ".mbr-iconfont": {
+                "margin-left": "-1.8rem",
+                "padding-right": "1rem",
+                "font-size": "inherit",
+                "&:before": {
+                  "display": "inline-block",
+                  "transform": "scale(1, 1)",
+                  "transition": "all 0.25s ease-in-out"
+                }
+              }
+            },
+            ".collapsed": {
+              ".dropdown-menu .dropdown-item:before": {
+                "display": "none"
+              },
+              ".dropdown .dropdown-menu .dropdown-item": {
+                "padding": "0.235em 1.5em 0.235em 1.5em !important",
+                "transition": "none",
+                "margin": "0 !important"
+              }
+            },
+            ".navbar": {
+              "min-height": "77px",
+              "transition": "all .3s",
+              "border-bottom": "1px solid transparent",
+              "&:not(.navbar-short)": {
+                "border-bottom": "1px solid #e6e6e6"
+              },
+              "& when not (@transparent)": {
+                "background": "@menuBgColor"
+              },
+              "& when (@transparent)": {
+                "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity)"
+              },
+              "&.opened": {
+                "transition": "all .3s"
+              },
+              ".dropdown-item": {
+                "padding": ".5rem 1.8rem"
+              },
+              ".navbar-logo img": {
+                "width": "auto"
+              },
+              ".navbar-collapse": {
+                "justify-content": "flex-end",
+                "z-index": "1",
+                "& when not (@showItems)": {
+                  "display": "none !important"
+                }
+              },
+              "&.collapsed": {
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  },
+                  "@media (min-width: 992px)": {
+                    "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                      "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
+                    }
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "55%"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": ".25rem 1.5rem",
+                  "text-align": "center"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-right": "0",
+                  "padding-top": ".5rem",
+                  "padding-bottom": ".5rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "55%"
+                  }
+                },
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3.8rem !important"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": ".25rem 1.5rem !important",
+                  "text-align": "center"
+                },
+                ".navbar-brand": {
+                  "flex-shrink": "initial",
+                  "flex-basis": "auto",
+                  "word-break": "break-word",
+                  "padding-right": "2rem"
+                },
+                ".navbar-toggler": {
+                  "flex-basis": "auto"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-top": ".5rem",
+                  "padding-bottom": ".5rem"
+                }
+              },
+              "&.navbar-short": {
+                "min-height": "60px",
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3rem !important"
+                  }
+                },
+                ".navbar-brand": {
+                  "padding": "0"
+                }
+              }
+            },
+            ".navbar-brand": {
+              "flex-shrink": "0",
+              "align-items": "center",
+              "margin-right": "0",
+              "padding": "0",
+              "transition": "all .3s",
+              "word-break": "break-word",
+              "z-index": "1",
+              ".navbar-caption": {
+                "line-height": "inherit !important"
+              },
+              ".navbar-logo a": {
+                "outline": "none"
+              }
+            },
+            ".dropdown-item.active, .dropdown-item:active": {
+              "background-color": "transparent"
+            },
+            ".navbar-expand-lg .navbar-nav .nav-link": {
+              "padding": "0"
+            },
+            ".nav-dropdown .link.dropdown-toggle": {
+              "margin-right": "1.667em",
+              "&[aria-expanded=\"true\"]": {
+                "margin-right": "0",
+                "padding": "0.667em 1.667em"
+              }
+            },
+            ".navbar.navbar-expand-lg .dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                ".dropdown-submenu": {
+                  "margin": "0",
+                  "left": "100%"
+                }
+              }
+            },
+            ".navbar .dropdown.open > .dropdown-menu": {
+              "display": "block"
+            },
+            "ul.navbar-nav": {
+              "flex-wrap": "wrap"
+            },
+            ".navbar-buttons": {
+              "text-align": "center",
+              "min-width": "170px"
+            },
+            "button.navbar-toggler": {
+              "outline": "none",
+              "width": "31px",
+              "height": "20px",
+              "cursor": "pointer",
+              "transition": "all .2s",
+              "position": "relative",
+              "align-self": "center",
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "currentColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              },
+              "&:nth-child(2)": {
+                "transform": "rotate(45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(3)": {
+                "transform": "rotate(-45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              }
+            },
+            ".navbar-dropdown": {
+              "padding": ".5rem 1rem",
+              "& when (@sticky)": {
+                "position": "fixed"
+              }
+            },
+            "a.nav-link": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            },
+            ".icons-menu": {
+              "flex-wrap": "nowrap",
+              "display": "flex",
+              "justify-content": "center",
+              "padding-left": "1rem",
+              "padding-right": "1rem",
+              "padding-top": "0.3rem",
+              "text-align": "center"
+            },
+            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
+              ".navbar": {
+                "height": "77px",
+                "&.opened": {
+                  "height": "auto"
+                }
+              },
+              ".nav-item .nav-link:hover::before": {
+                "width": "175%",
+                "max-width": "calc(100% ~'+' 2rem)",
+                "left": "-1rem"
+              }
+            }
+          },
+          "_name": "menu1",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"5.2\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\">\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"index.html\">\n                        <img src=\"@PROJECT_PATH@/assets/images/-icon-2-128x128.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Brand Name</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#footer1-1b\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">تواصل معنا</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#image1-r\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">من نحن</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#top\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                            الرئيسيه</a></li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                        Download Now</a></div>\n            </div>\n        </div>\n    </nav>\n\n</section>",
+          "_cid": "s48OLK6784",
+          "_anchor": "menu1-h",
+          "_sourceTheme": "mobirise5",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".social-row": {
+              "display": "flex",
+              "flex-wrap": "wrap"
+            },
+            ".soc-item": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "border-radius": "50%",
+              "background-color": "white",
+              "margin-right": "0.5rem",
+              "margin-bottom": "1rem",
+              "padding": "0.5rem",
+              "height": "2.5rem",
+              "width": "2.5rem"
+            },
+            "@media (max-width: 767px)": {
+              ".row": {
+                "text-align": "center"
+              },
+              ".social-row": {
+                "justify-content": "center"
+              }
+            },
+            ".list": {
+              "list-style": "none",
+              "padding-left": "0",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "2rem"
+              },
+              "@media (min-width: 992px)": {
+                "margin-bottom": "0rem"
+              },
+              "color": "#bbbbbb"
+            },
+            ".mbr-text": {
+              "color": "#bbbbbb",
+              "text-align": "right"
+            },
+            ".mbr-iconfont": {
+              "color": "black"
+            },
+            "H5": {
+              "text-align": "right"
+            },
+            ".copyright": {
+              "text-align": "center"
+            }
+          },
+          "_name": "footer1",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer1\" group=\"Footers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" global once=\"footers\"
+          mbr-class=\"{\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\"
+          name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\"
+          step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input
+          type=\"checkbox\" title=\"Social\" name=\"showSocial\" checked>\n        <input type=\"range\" name=\"socialCount\" title=\"Social Count\" min=\"1\" max=\"4\" step=\"1\"
+          value=\"2\" condition=\"showSocial\">\n        <input type=\"checkbox\" title=\"Copyright\" name=\"showCopyright\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background8.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#353535\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row mbr-white\">\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 mbr-text class=\"mbr-section-subtitle mbr-fonts-style mb-2\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\"><b>&nbsp;</b></h5>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li class=\"mbr-text item-wrap\">&nbsp; &nbsp;&nbsp;</li>\n                </ul>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 mbr-text class=\"mbr-section-subtitle mbr-fonts-style mb-2\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n                    <b>روابط</b>\n                </h5>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n\n                    <li class=\"mbr-text item-wrap\"><b><a href=\"privacy-policy.html\" class=\"text-white\">سياسة الخصوصية</a></b></li><li class=\"mbr-text item-wrap\"><a href=\"terms.html\" class=\"text-white\">الشروط والأحكام</a></li>\n                </ul>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 mbr-text class=\"mbr-section-subtitle mbr-fonts-style mb-2\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n                    <b>العنوان</b>\n                </h5>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li class=\"mbr-text item-wrap\">الرياض - حي العوالي - طريق نجم الدين</li><li class=\"mbr-text item-wrap\">السجل التجاري: 1010751371</li>\n                </ul>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-2\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\"><b>اتصل بنا</b></h5>\n                <p class=\"mbr-text mbr-fonts-style mb-4\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\"><a href=\"tel:+966542766832\" class=\"text-white\">+966542766832</a><br><a href=\"mailto:info@nwselk.com\" class=\"text-white\">info@nwselk.com</a><br></p>\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle && showSocial\">\n                    <b>حمل التطبيق</b></h5>\n                <div class=\"social-row display-7\" mbr-if=\"showSocial\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://play.google.com/store/apps/details?id=com.myth.nwselk\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-android socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                        <a href=\"https://apps.apple.com/app/id1615977334\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-apple socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-instagram\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-instagram\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 mt-4\" mbr-if=\"showCopyright\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style copyright align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright\" data-app-placeholder=\"Type Text\">جميع الحقوق محفوظة&nbsp;© تطبيق نوصلك</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t2V24U22Ve",
+          "_anchor": "footer1-1b",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {}
+        }
+      ]
+    },
+    "privacy-policy.html": {
+      "settings": {
+        "title": "تطبيق نوصلك - السياسة والخصوصية",
+        "order": 1,
+        "meta_descr": "تطبيق نوصلك يُعنى بتقديم خدمات المساعدة على الطريق من خلال التطبيق المتوفر مجانا على الأجهزة اللوحية و الهواتف المحمولة، و يعمل كمنصة إلكترونية تفاعلية لحظية، تعتمد على تقنية الإنترنت، و خدمة تحديد المواقع من أجل ربط المستخدمين المحتاجين بأي خدمة مرتبطة بالنقل و المساعدة على الطريق مع مزوّدي الخدمة، من خلال تطبيق مُوَجّه للهواتف الذكية.",
+        "meta_image": "@PROJECT_PATH@/assets/images/-icon-2-128x128.png"
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@sticky)": {
+              ".navbar-dropdown": {
+                "position": "relative !important"
+              }
+            },
+            "& when (@sticky)": {
+              "z-index": "1000",
+              "width": "100%",
+              "& when not (@transparent)": {
+                "position": "relative",
+                "min-height": "60px"
+              },
+              "nav.navbar": {
+                "position": "fixed"
+              }
+            },
+            ".dropdown-item:before": {
+              "font-family": "Moririse2 !important",
+              "content": "'\\e966'",
+              "display": "inline-block",
+              "width": "0",
+              "position": "absolute",
+              "left": "1rem",
+              "top": "0.5rem",
+              "margin-right": "0.5rem",
+              "line-height": "1",
+              "font-size": "inherit",
+              "vertical-align": "middle",
+              "text-align": "center",
+              "overflow": "hidden",
+              "transform": "scale(0, 1)",
+              "transition": "all 0.25s ease-in-out"
+            },
+            ".dropdown-menu": {
+              "padding": "0"
+            },
+            ".dropdown-item": {
+              "border-bottom": "1px solid #e6e6e6",
+              "&:hover, &:focus": {
+                "background": "@primaryColor !important",
+                "color": "white !important"
+              }
+            },
+            ".nav-dropdown .link": {
+              "padding": "0 0.3em !important",
+              "margin": ".667em 1em !important"
+            },
+            ".nav-dropdown .link.dropdown-toggle::after": {
+              "margin-left": "0.5rem",
+              "margin-top": "0.2rem"
+            },
+            ".nav-link": {
+              "position": "relative"
+            },
+            ".container": {
+              "display": "flex",
+              "margin": "auto"
+            },
+            ".iconfont-wrapper": {
+              "color": "@iconsColor !important",
+              "font-size": "1.5rem",
+              "padding-right": ".5rem"
+            },
+            ".navbar-caption": {
+              "padding-right": "4rem"
+            },
+            ".navbar-nav": {},
+            ".dropdown-menu, .navbar.opened": {
+              "background": "@menuBgColor !important"
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".dropdown .dropdown-menu .dropdown-item": {
+              "width": "auto",
+              "transition": "all 0.25s ease-in-out",
+              "&::after": {
+                "right": "0.5rem"
+              },
+              ".mbr-iconfont": {
+                "margin-left": "-1.8rem",
+                "padding-right": "1rem",
+                "font-size": "inherit",
+                "&:before": {
+                  "display": "inline-block",
+                  "transform": "scale(1, 1)",
+                  "transition": "all 0.25s ease-in-out"
+                }
+              }
+            },
+            ".collapsed": {
+              ".dropdown-menu .dropdown-item:before": {
+                "display": "none"
+              },
+              ".dropdown .dropdown-menu .dropdown-item": {
+                "padding": "0.235em 1.5em 0.235em 1.5em !important",
+                "transition": "none",
+                "margin": "0 !important"
+              }
+            },
+            ".navbar": {
+              "min-height": "77px",
+              "transition": "all .3s",
+              "border-bottom": "1px solid transparent",
+              "&:not(.navbar-short)": {
+                "border-bottom": "1px solid #e6e6e6"
+              },
+              "& when not (@transparent)": {
+                "background": "@menuBgColor"
+              },
+              "& when (@transparent)": {
+                "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity)"
+              },
+              "&.opened": {
+                "transition": "all .3s"
+              },
+              ".dropdown-item": {
+                "padding": ".5rem 1.8rem"
+              },
+              ".navbar-logo img": {
+                "width": "auto"
+              },
+              ".navbar-collapse": {
+                "justify-content": "flex-end",
+                "z-index": "1",
+                "& when not (@showItems)": {
+                  "display": "none !important"
+                }
+              },
+              "&.collapsed": {
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  },
+                  "@media (min-width: 992px)": {
+                    "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                      "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
+                    }
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "55%"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": ".25rem 1.5rem",
+                  "text-align": "center"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-right": "0",
+                  "padding-top": ".5rem",
+                  "padding-bottom": ".5rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "55%"
+                  }
+                },
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3.8rem !important"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": ".25rem 1.5rem !important",
+                  "text-align": "center"
+                },
+                ".navbar-brand": {
+                  "flex-shrink": "initial",
+                  "flex-basis": "auto",
+                  "word-break": "break-word",
+                  "padding-right": "2rem"
+                },
+                ".navbar-toggler": {
+                  "flex-basis": "auto"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-top": ".5rem",
+                  "padding-bottom": ".5rem"
+                }
+              },
+              "&.navbar-short": {
+                "min-height": "60px",
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3rem !important"
+                  }
+                },
+                ".navbar-brand": {
+                  "padding": "0"
+                }
+              }
+            },
+            ".navbar-brand": {
+              "flex-shrink": "0",
+              "align-items": "center",
+              "margin-right": "0",
+              "padding": "0",
+              "transition": "all .3s",
+              "word-break": "break-word",
+              "z-index": "1",
+              ".navbar-caption": {
+                "line-height": "inherit !important"
+              },
+              ".navbar-logo a": {
+                "outline": "none"
+              }
+            },
+            ".dropdown-item.active, .dropdown-item:active": {
+              "background-color": "transparent"
+            },
+            ".navbar-expand-lg .navbar-nav .nav-link": {
+              "padding": "0"
+            },
+            ".nav-dropdown .link.dropdown-toggle": {
+              "margin-right": "1.667em",
+              "&[aria-expanded=\"true\"]": {
+                "margin-right": "0",
+                "padding": "0.667em 1.667em"
+              }
+            },
+            ".navbar.navbar-expand-lg .dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                ".dropdown-submenu": {
+                  "margin": "0",
+                  "left": "100%"
+                }
+              }
+            },
+            ".navbar .dropdown.open > .dropdown-menu": {
+              "display": "block"
+            },
+            "ul.navbar-nav": {
+              "flex-wrap": "wrap"
+            },
+            ".navbar-buttons": {
+              "text-align": "center",
+              "min-width": "170px"
+            },
+            "button.navbar-toggler": {
+              "outline": "none",
+              "width": "31px",
+              "height": "20px",
+              "cursor": "pointer",
+              "transition": "all .2s",
+              "position": "relative",
+              "align-self": "center",
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "currentColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              },
+              "&:nth-child(2)": {
+                "transform": "rotate(45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(3)": {
+                "transform": "rotate(-45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              }
+            },
+            ".navbar-dropdown": {
+              "padding": ".5rem 1rem",
+              "& when (@sticky)": {
+                "position": "fixed"
+              }
+            },
+            "a.nav-link": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            },
+            ".icons-menu": {
+              "flex-wrap": "nowrap",
+              "display": "flex",
+              "justify-content": "center",
+              "padding-left": "1rem",
+              "padding-right": "1rem",
+              "padding-top": "0.3rem",
+              "text-align": "center"
+            },
+            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
+              ".navbar": {
+                "height": "77px",
+                "&.opened": {
+                  "height": "auto"
+                }
+              },
+              ".nav-item .nav-link:hover::before": {
+                "width": "175%",
+                "max-width": "calc(100% ~'+' 2rem)",
+                "left": "-1rem"
+              }
+            }
+          },
+          "_name": "menu1",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"5.2\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\">\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"index.html\">\n                        <img src=\"@PROJECT_PATH@/assets/images/-icon-2-128x128.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Brand Name</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#footer1-1b\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">تواصل معنا</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#image1-r\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">من نحن</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#top\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                            الرئيسيه</a></li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                        Download Now</a></div>\n            </div>\n        </div>\n    </nav>\n\n</section>",
+          "_cid": "s48OLK6784",
+          "_anchor": "menu1-10",
+          "_sourceTheme": "mobirise5",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "text-align": "right"
+            },
+            ".mbr-text": {
+              "text-align": "right"
+            }
+          },
+          "_name": "content5",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input
+          type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\"
+          value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\"
+          name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"11\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\"
+          name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input
+          type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\"><div>سياسة الخصوصية نوصلك</div></h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">جمع مؤسسة تطبيقات نوصلك لتقنية المعلومات و/ أو المؤسسات التابعة لها (يشار إليها مجتمعة بـ \n<br>\"نوصلك \" ، \"نحن\") معلومات عنك عند استخدامك لتطبيقات الهاتف المحمول الخاصة بنا والمواقع الإلكترونية ومركز الاتصال ومنتجات وخدمات أخرى خاصة بنا (يشار إليها مجتمعة بـ \"الخدمات\") ومن خلال التفاعلات والاتصالات الأخرى الخاصة بك معنا. تنص سياسة الخصوصية هذه على الأساس الذي سوف تعتمد عليه نوصلك في معالجة المعلومات بما في ذلك البيانات الشخصية التي نجمعها منك أو تزودها أنت لنا. في كل مرة تدخل فيها أو تستخدم الخدمات أو تزودنا بمعلومات، فإنك بقيامك بذلك تقبل وتوافق على الممارسات المبينة في سياسة الخصوصية هذه.\n<br>\n<br>\n<br>النطاق والتطبيق\n<br>\n<br>تنطبق سياسة الخصوصية هذه (\"سياسة الخصوصية\") على الأشخاص في أي مكان من العالم الذي يدخلون ويستخدمون الخدمات الخاصة بنا (\"المستخدمين\") فضلاً عن قائد المركبة وشركات النقل الشريكة، أو أي أشخاص آخرين يستخدمون نظام نوصلك بموجب ترخيص (يشار إليهم مجتمعين بـ \"قائد المركبة\").\n<br>\n<br>\n<br>جمع المعلومات\n<br>\n<br>المعلومات التي تقدمها لنا\n<br>\n<br>نحن نقوم بجمع المعلومات التي تقدمها لنا مباشرة من خلال وصولك أو استخدامك للخدمات، مثلاً عندما تقوم بإنشاء أو تعديل الحساب الخاص بك، أو طلب خدمات حسب الطلب، أو الاتصال بدعم العملاء أو الاتصال بنا بطرق أخرى.  يمكن أن تتضمن هذه المعلومات: اسمك، البريد الإلكتروني، رقم الهاتف، العنوان البريدي، صورة الملف الشخصي، طريقة الدفع، البيانات المالية ومعلومات بطاقة الائتمان، وأي معلومات أخرى تختار تقديمها لنا.\n<br>\n<br>الرجاء العلم بأننا لا نتعمد جمع المعلومات الشخصية من الأطفال ومن هم دون سن 18 أو الاحتفاظ بها أو حفظها من خلال الخدمات، حيث أننا نطلب بأن يتعهد جميع المستخدمين لنا بأن عمرهم لا يقل عن 18 سنة.\n<br>\n<br>\n<br>\n<br>\n<br>معلومات نقوم بجمعها من خلال استخدامك لخدماتنا\n<br>\n<br>عندما تقوم باستخدام خدماتنا، نقوم بجمع معلومات (أي معلومات يمكن استخدامها للاتصال بك مباشرة مثل الاسم الكامل والعنوان البريدي ورقم الهاتف ومعلومات بطاقة الائتمان/ الخصم، أو عنوان البريد الإلكتروني) (\"المعلومات الشخصية)\" والمعلومات الديموغرافية (أي المعلومات التي تقدمها أو التي نجمعها ولا تكون معلومات شخصية، يشمل ذلك، دون حصر، الرمز البريدي، البلد الأصلي، الجنس، اسم المستخدم، معلومات النظام، يشمل ذلك نوع جهاز الهاتف المحمول الذي تستخدمه، معرف الجهاز المميز (على سبيل المثال رقم IMEI  للجهاز الخاص بك، عنوان الماك لواجهة الشبكة اللاسلكية للجهاز، أو رقم الهاتف المحمول المستخدم بواسطة الجهاز)، معلومات شبكة الهاتف المحمول، نظام تشغيل الهاتف، نوع متصفح الهاتف المحمول الذي تستخدمه، إعدادات المنطقة الزمنية، موقع الجهاز، عنوان بروتوكول IP، بيانات الرسائل القصيرة، معلومات التعاملات، العمر/ تاريخ الميلاد، معلومات سجل التصفح، معلومات سجل البحث، ومعلومات سجل التسجيل (\" المعلومات الديموغرافية\"، إلى جانب المعلومات الشخصية، \"البيانات الشخصية\").\n<br>\n<br>كما نستخدم أيضا تقنية نظام تحديد المواقع (GPS) لتحديد موقعك الحالي. بعض الخدمات الخاصة بنا التي تمكن الموقع تطلب بياناتك الشخصية للعمل في المستقبل. إذا كنت ترغب باستخدام خاصية معينة، سوف يطلب منك الموافقة على البيانات التي يجري استخدامها لهذا الغرض.\n<br>\n<br>\n<br>معلومات نجمعها من مصادر أخرى\n<br>\n<br>ربما نحصل على معلومات أيضاً من مصادر أخرى وندمجها مع المعلومات الشخصية التي تلقيناها منك أو جمعناها من خلال خدماتنا. على سبيل المثال:\n<br>\n<br>إذا اخترت ربط أو إنشاء أو تسجيل الدخول إلى حساب نوصلك الخاص بك مع مزود خدمات الدفع أو خدمة وسيلة تواصل اجتماعية (على سبيل المثال الفيسبوك) أو إذا كنت ترتبط من خلال تطبيق أو موقع منفصل يستخدم واجهة معالجة التطبيق الخاصة بنا ( أو واجهة معالجة التطبيق التي نستخدمها)، يمكننا الحصول على معلومات عنك أو عن اتصالاتك من ذلك الموقع أو التطبيق.\n<br>إذا كانت جهة العمل الخاصة بك تستخدم واحداً من الحلول المؤسسية الخاصة بنا، يمكننا الحصول على معلومات عنك من جهة العمل الخاصة بك.\n<br>\n<br>عندما تطلب خدمات عند الطلب، يجوز لقائد المركبة التابع لنا تزويدنا بتقييم للمستخدم بعد تقديم الخدمات لكم.\n<br>\n<br>إذا كنت تتفاعل أيضاً مع خدماتنا بصفة أخرى، على سبيل المثال كقائد مركبة، ربما نقوم بدمج وربط تلك المعلومات بالمعلومات الشخصية التي قمنا بجمعها منكم بصفتكم مستخدما أو راكباً.\n<br>\n<br>\n<br>استخدام البيانات الشخصية\n<br>يمكننا استخدام المعلومات الشخصية التي تزودنا بها التي نجمعها منك للأغراض التالية:\n<br>\n<br>تزويد وصيانة وتحسين خدماتنا، يشمل ذلك على سبيل المثال، تسهيل الدفعات وإرسال الإيصالات وتقديم المنتجات والخدمات التي تطلبها (وإرسال معلومات ذات صلة)، وتطوير ميزات جديدة وتقديم دعم العملاء للمستخدمين وقائد المركبة، وتطوير ميزات الأمان، ومنح الإذن للمستخدمين، وإرسال ترقيات وتحديثات المنتج والرسائل الإدارية.\n<br>\n<br>أداء العمليات والإدارة الداخلية، يشمل ذلك، على سبيل المثال، منع الاحتيال وإساءة استخدام خدماتنا، واستكشاف أخطاء البرمجيات وحلولها والمشاكل التشغيلية، وإجراء تحليل البيانات، والاختبار والبحث ومراقبة وتحليل اتجاهات الاستخدام والنشاط .\n<br>\n<br>إرسال أو تسهيل الاتصالات (i) بينك وبين قائد المركبة، مثل الأوقات المقدرة للوصول (ETAs)، أو (ii) بينك وبين جهة اتصال لك في اتجاهك فيما يتعلق استخدامك لميزات معينة مثل الإحالات أو الدعوات. \n<br>\n<br>إرسال معلومات لك نرى بأنها ذات أهمية بالنسبة لك، يشمل ذلك معلومات حول منتجات وخدمات نوصلك والعروض الترويجية والأخبار والأحداث الخاصة بنوصلك وشركات أخرى، حسب المسموح وطبقاً للقوانين المحلية المعمول بها، ومعالجة المسابقات ورهانات سباق الخيل أو أي مشاركات ترويجية أخرى والوفاء بأي جوائز ذات صلة؛\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>إشعارك بشأن التغيرات على خدماتنا.\n<br>\n<br>السماح لك بالمشاركة في ميزات تفاعلية لخدماتنا.\n<br>\n<br>الحفاظ على خدماتنا آمنة ومؤمنة.\n<br>\n<br>تخصيص وتحسين الخدمات، يشمل ذلك تقديم الميزات أو الوصية بها والمحتوى والاتصالات الاجتماعية والإحالات والإعلانات. \n<br>\n<br>\n<br>تخزين ونقل البيانات الشخصية\n<br>\n<br>أنت توافق على أننا نمتلك الحق في نقل البيانات الشخصية المبينة في سياسة الخصوصية هذه  إلى ومن، ومعالجتها وحفظها في ( الولايات المتحدة الأمريكية ، والمملكة العربية السعودية )، ودول أخرى،  والبعض منها يكون نظام حماية البيانات فيها أقل من المنطقة التي تقيم فيها. في تلك الحالة، سوف نقوم باتخاذ التدابير اللازمة لحماية بياناتك الشخصية وفقاً لسياسة الخصوصية هذه. بتقديم البيانات الشخصية الخاصة بك، فإنك توافق على هذا النقل أو التخزين أو المعالجة. سوف نقوم باتخاذ كافة الخطوات اللازمة والمعقولة لضمان معالجة البيانات الخاصة بك على نحو آمن ووفقا لسياسة الخصوصية هذه.\n<br>\n<br>فيما يتعلق بالبيانات الشخصية المعالجة والمحفوظة والمنقولة من وإلى الولايات المتحدة الأمريكية أو غيرها، تكون نوصلك هي المتحكم بالبيانات لغرض الامتثال لقوانين حماية البيانات .\n<br>\n<br>الممثل المكلف من طرفنا لغرض الامتثال للقوانين  \n<br>للحفاظ على سلامة قواعد البيانات الخاصة بنا، ولأداء الخدمات على أساس مستمر نيابة عنك، ولأغراض البحث والتحليلات ولأغراض إحصائية ولضمان الامتثال للقوانين واللوائح التنظيمية المطبقة، نحن نحتفظ بالمعلومات الشخصية والمعلومات الديموغرافية المقدمة بواسطة المستخدمين وقائد المركبة لفترة طويلة من الوقت. لن تكون نوصلك مسؤولة عن دقة المعلومات التي تقدمها، وستقوم بتعديل وتحديث معلوماتك الشخصية في قواعد البيانات الخاصة بنا بناء على طلبك.  سوف نقوم بمسح أو أرشفة معلوماتك الشخصية من الاستخدام النشط إذا طلب ذلك بمقتضى قانون معين أو بطلب منك. بالدخول أو الوصول إلى الخدمات، فإنك بموجبه تضمن وتتعهد بأنك تفهم أن جميع المعلومات المقدمة بواسطة من خلال الخدمات أو خلاف ذلك إلى نوصلك يمكن استخدامها بواسطة نوصلك وفقا للقوانين المطبقة، وسياسة الخصوصية هذه  وشروط وأحكام الاستخدام للعميل.\n<br>\n<br>\n<br>مشاركة البيانات الشخصية\n<br>\n<br>ربما نقوم بمشاركة البيانات الشخصية التي نجمعها عنك كما هو موضح في هذا البيان أو كما هو موضح في وقت جمع المعلومات أو مشاركتها، يشمل ذلك ما يلي:\n<br>\n<br>من خلال خدماتنا\n<br>\n<br>يمكننا مشاركة البيانات الشخصية الخاصة بك:\n<br>\n<br>مع قائد المركبة من تقديم الخدمات التي تطلبها. على سبيل المثال، نقوم بمشاركة اسمك ومواقع الاستلام و/ أو التسليم مع قائد المركبة.\n<br>\n<br>مع أطراف ثالثة لتقديم خدمة قمتم بطلبها من خلال شراكة أو عرض ترويجي مقدم بواسطة طرف ثالث أو بواسطتنا.\n<br>\n<br>مع أطراف ثالثة تختار أنت السماح لنا بمشاركة البيانات الشخصية الخاصة بك معها، على سبيل المثال، تطبيقات أو مواقع أخرى تندمج مع واجهة معالجة التطبيق (API) أو الخدمات الخاصة بنا، أو واجهة معالجة تطبيق أو خدمة نندمج معها.\n<br>\n<br>مع جهة العمل الخاصة بك (أو كيان مماثل) وأي أطراف ثالثة لازمة مشاركة بواسطتنا أو بواسطة جهة العمل الخاصة بكم، إذا كنت مشاركاً في أي من الحلول المؤسسية الخاصة بنا.\n<br>\n<br>مشاركة هامة أخرى\n<br>\n<br>يمكننا مشاركة البيانات الشخصية الخاصة بك:\n<br>\n<br>مع الكيانات التابعة والفرعية نوصلك \n<br>\n<br>مع الوكلاء والاستشاريين وشركاء التسويق والإعلان ومزودي خدمات آخرين ممن يحتاجون إلى الوصول إلى تلك البيانات الشخصية لأداء عمل نيابة عنا؛ أو لتنفيذ أي عقد نبرمه معهم.\n<br>\n<br>استجابة لطلب أي معلومات بواسطة سلطة مختصة إذا كنا نرى بأن الكشف عن تلك المعلومات كان بموجب، أو خلاف ذلك، بمقتضى أي قانون أو لائحة تنظيمية أو إجراء قانوني معمول بها.\n<br>\n<br>مع الجهات المسؤولة المكلفة بإنفاذ القانون والسلطات الحكومية أو أطراف ثالثة أخرى لنفي أو تطبيق شروط وأحكام الخاصة بك وللتحقيق في انتهاكات محتملة أو إذا كنا نرى بأن أعمالكم كانت مخالفة وشروط وأحكام الخدمة الخاصة بنا أو لحماية الحقوق والممتلكات وأمان نوصلك أو الغير؛\n<br>\n<br>مع أطراف ثالثة فيما يخص أو خلال المفاوضات بشأن أي عملية اندماج أو بيع لأصول الشركة أو توحيد أو إعادة هيكلة أو تمويل أو شراء حصة أو كامل شركتنا بواسطة أي شركة أخرى أو شرائنا لأي شركة أخرى.\n<br>\n<br>إذا قمنا خلاف ذلك بإشعارك وأنت وافقت على المشاركة؛\n<br>\n<br>مع أطراف ثالثة في نموذج مجمع و/ أو مجهول المصدر لا يمكن استخدامه بصورة معقولة لتحديد هويتك.\n<br>\n<br>\n<br>\n<br>\n<br>خياراتك\n<br>\n<br>التسويق واختيار الرفض\n<br>\n<br>يمنح نوصلك المستخدمين وقائد المركبة الفرصة لاختيار رفض اتصالات من طرفنا أو من شركائنا في الجانب الذي نطلب فيها معلومات حول الزائر. يكون لك الخيار في أن تطلب منا عدم استخدام بياناتك الشخصية لأغراض التسويق وحذفها من قاعدة بياناتنا، وعدم استلام اتصالات مستقبلية أو اعدم استخدام خدماتنا.\n<br>\n<br>\n<br>الوصول إلى المعلومات\n<br>\n<br>تمنحك القوانين الحق في الوصول إلى المعلومات المحفوظة عنك. يمكنك ممارسة حقك بالوصول وفقاً لأحكام القانون. سيكون أي طلب وصول خاضعاً لرسوم قدرها         (أو ما يعادله بالعملة المحلية أسعار الصرف السائدة) لاستيفاء التكاليف الخاصة بنا لتزويدك بالمعلومات التي بحوزتنا عنك.\n<br>\n<br>\n<br>التغييرات على سياسة الخصوصية هذه\n<br>يمكننا تغيير سياسة الخصوصية هذه من حين لآخر. إذا قمنا بأي تغييرات جوهرية ملموسة على الطريقة التي نتعامل بها مع البيانات الشخصية الخاصة بك، أو على سياسة الخصوصية، سوف نقوم بتزويدكم بإشعار من خلال الخدمات أو بواسطة أي وسائل أخرى مثل البريد الإلكتروني. استخدامكم المستمر للخدمات بعد ذلك الإشعار يشكل موافقة من طرفكم على تلك التغييرات. نحن نشجعكم على المراجعة الدورية لسياسة الخصوصية للإطلاع على أحدث المعلومات حول ممارسة الخصوصية الخاصة بنا.\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>الاحتياطات الأمنية\n<br>\n<br>الملف الشخصي الخاص بك لدى نوصلك محمي بكلمة مرور بحيث يكون لك الحق ولموظفي نوصلك المخولين في الوصول إلى معلومات الحساب الخاص بك. لن يقوم موظف نوصلك وبصورة استباقية بالاتصال بك وطلب أي معلومات حساب شخصية، يشمل ذلك كلمة المرور الخاصة بك. \n<br>\n<br>يبذل نوصلك كل جهد مستطاع لضمان أمن وحماية بياناتك الشخصية في نظامه. هناك موظفون في نوصلك مكرسون للحفاظ على سياسة الخصوصية المنصوص عليها هنا وأي مبادرات خصوصية أخرى، والمراجعة الدورية لأمن الويب والتأكد من أن كل موظف لدى نوصلك على علم ويدرك الممارسات الأمنية. للأسف لا  يمكن ضمان حماية أي بيانات تنقل عبر الإنترنت بنسبة 100%. نتيجة لذلك، لا يمكن لنوصلك ضمان أمان أي بيانات شخصية تنقلها أو ترسلها لها وأنت تقوم بذلك على عاتقك الشخصي. إذا كان لديك أي استفسارات حول هذه المسألة، يمكنك الرجوع إلى شروط وأحكام الاستخدام للعميل. إلى المدى المسموح به بمقتضى القانون المطبق، يخلي نوصلك مسؤوليته صراحة  ضد أي مطالبة أو مسؤولية ربما تنشأ في حال حصول أي أطراف على البيانات الشخصية التي ترسلها إلى نوصلك\n<br>\n<br>\n<br>ملفات تعريف الارتباط\n<br>\n<br>يستخدم الموقع الإلكتروني الخاص بنا ملفات تعريف ارتباط تميزك عن المستخدمين الآخرين لموقعنا الإلكتروني. هذا يساعدنا في أن نقدم لك تجربة جيدة عندما تتصفح الموقع الإلكتروني الخاص بنا ويسمح لنا أيضا بتحسين الموقع الإلكتروني الخاص بنا والخدمات التي نقدمها. بالوصول إلى الموقع الإلكتروني وتصفحه، فإنك توافق على استخدامنا لملفات تعريف الارتباط.\n<br>\n<br>\n<br>اتصلوا بنا\n<br>\n<br>إذا كان لديكم أي استفسارات أو ملاحظات أو طلبات متعلقة ببيان الخصوصية، أو إذا كان لديكم أي شكاوى أو اعتراضات فيما يتعلق بطريقة معالجة نوصلك لبياناتكم الشخصية، الرجاء الاتصال بنا على البريد الإلكتروني:\n<br>\n<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t0PzroKGxV",
+          "_anchor": "content5-12",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".social-row": {
+              "display": "flex",
+              "flex-wrap": "wrap"
+            },
+            ".soc-item": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "border-radius": "50%",
+              "background-color": "white",
+              "margin-right": "0.5rem",
+              "margin-bottom": "1rem",
+              "padding": "0.5rem",
+              "height": "2.5rem",
+              "width": "2.5rem"
+            },
+            "@media (max-width: 767px)": {
+              ".row": {
+                "text-align": "center"
+              },
+              ".social-row": {
+                "justify-content": "center"
+              }
+            },
+            ".list": {
+              "list-style": "none",
+              "padding-left": "0",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "2rem"
+              },
+              "@media (min-width: 992px)": {
+                "margin-bottom": "0rem"
+              },
+              "color": "#bbbbbb"
+            },
+            ".mbr-text": {
+              "color": "#bbbbbb",
+              "text-align": "right"
+            },
+            ".mbr-iconfont": {
+              "color": "black"
+            },
+            "H5": {
+              "text-align": "right"
+            },
+            ".copyright": {
+              "text-align": "center"
+            }
+          },
+          "_name": "footer1",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer1\" group=\"Footers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" global once=\"footers\" mbr-class=\"{\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\" checked>\n        <input type=\"range\" name=\"socialCount\" title=\"Social Count\" min=\"1\" max=\"4\" step=\"1\" value=\"2\" condition=\"showSocial\">\n        <input type=\"checkbox\" title=\"Copyright\" name=\"showCopyright\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background8.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#353535\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row mbr-white\">\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 mbr-text class=\"mbr-section-subtitle mbr-fonts-style mb-2\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\"><b>&nbsp;</b></h5>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li class=\"mbr-text item-wrap\">&nbsp; &nbsp;&nbsp;</li>\n                </ul>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 mbr-text class=\"mbr-section-subtitle mbr-fonts-style mb-2\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n                    <b>روابط</b>\n                </h5>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n\n                    <li class=\"mbr-text item-wrap\"><b><a href=\"privacy-policy.html\" class=\"text-white\">سياسة الخصوصية</a></b></li><li class=\"mbr-text item-wrap\"><a href=\"terms.html\" class=\"text-white\">الشروط والأحكام</a></li>\n                </ul>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 mbr-text class=\"mbr-section-subtitle mbr-fonts-style mb-2\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n                    <b>العنوان</b>\n                </h5>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li class=\"mbr-text item-wrap\">الرياض - حي العوالي - طريق نجم الدين</li><li class=\"mbr-text item-wrap\">السجل التجاري: 1010751371</li>\n                </ul>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-2\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\"><b>اتصل بنا</b></h5>\n                <p class=\"mbr-text mbr-fonts-style mb-4\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\"><a href=\"tel:+966542766832\" class=\"text-white\">+966542766832</a><br><a href=\"mailto:info@nwselk.com\" class=\"text-white\">info@nwselk.com</a><br></p>\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle && showSocial\">\n                    <b>حمل التطبيق</b></h5>\n                <div class=\"social-row display-7\" mbr-if=\"showSocial\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://play.google.com/store/apps/details?id=com.myth.nwselk\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-android socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                        <a href=\"https://apps.apple.com/app/id1615977334\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-apple socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-instagram\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-instagram\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 mt-4\" mbr-if=\"showCopyright\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style copyright align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright\" data-app-placeholder=\"Type Text\">جميع الحقوق محفوظة&nbsp;© تطبيق نوصلك</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t2V24U22Ve",
+          "_anchor": "footer1-1b",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {}
+        }
+      ]
+    },
+    "terms.html": {
+      "settings": {
+        "title": "تطبيق نوصلك - الشروط والاحكام",
+        "order": 2,
+        "meta_descr": "تطبيق نوصلك يُعنى بتقديم خدمات المساعدة على الطريق من خلال التطبيق المتوفر مجانا على الأجهزة اللوحية و الهواتف المحمولة، و يعمل كمنصة إلكترونية تفاعلية لحظية، تعتمد على تقنية الإنترنت، و خدمة تحديد المواقع من أجل ربط المستخدمين المحتاجين بأي خدمة مرتبطة بالنقل و المساعدة على الطريق مع مزوّدي الخدمة، من خلال تطبيق مُوَجّه للهواتف الذكية.",
+        "meta_image": "@PROJECT_PATH@/assets/images/-icon-2-128x128.png"
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@sticky)": {
+              ".navbar-dropdown": {
+                "position": "relative !important"
+              }
+            },
+            "& when (@sticky)": {
+              "z-index": "1000",
+              "width": "100%",
+              "& when not (@transparent)": {
+                "position": "relative",
+                "min-height": "60px"
+              },
+              "nav.navbar": {
+                "position": "fixed"
+              }
+            },
+            ".dropdown-item:before": {
+              "font-family": "Moririse2 !important",
+              "content": "'\\e966'",
+              "display": "inline-block",
+              "width": "0",
+              "position": "absolute",
+              "left": "1rem",
+              "top": "0.5rem",
+              "margin-right": "0.5rem",
+              "line-height": "1",
+              "font-size": "inherit",
+              "vertical-align": "middle",
+              "text-align": "center",
+              "overflow": "hidden",
+              "transform": "scale(0, 1)",
+              "transition": "all 0.25s ease-in-out"
+            },
+            ".dropdown-menu": {
+              "padding": "0"
+            },
+            ".dropdown-item": {
+              "border-bottom": "1px solid #e6e6e6",
+              "&:hover, &:focus": {
+                "background": "@primaryColor !important",
+                "color": "white !important"
+              }
+            },
+            ".nav-dropdown .link": {
+              "padding": "0 0.3em !important",
+              "margin": ".667em 1em !important"
+            },
+            ".nav-dropdown .link.dropdown-toggle::after": {
+              "margin-left": "0.5rem",
+              "margin-top": "0.2rem"
+            },
+            ".nav-link": {
+              "position": "relative"
+            },
+            ".container": {
+              "display": "flex",
+              "margin": "auto"
+            },
+            ".iconfont-wrapper": {
+              "color": "@iconsColor !important",
+              "font-size": "1.5rem",
+              "padding-right": ".5rem"
+            },
+            ".navbar-caption": {
+              "padding-right": "4rem"
+            },
+            ".navbar-nav": {},
+            ".dropdown-menu, .navbar.opened": {
+              "background": "@menuBgColor !important"
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".dropdown .dropdown-menu .dropdown-item": {
+              "width": "auto",
+              "transition": "all 0.25s ease-in-out",
+              "&::after": {
+                "right": "0.5rem"
+              },
+              ".mbr-iconfont": {
+                "margin-left": "-1.8rem",
+                "padding-right": "1rem",
+                "font-size": "inherit",
+                "&:before": {
+                  "display": "inline-block",
+                  "transform": "scale(1, 1)",
+                  "transition": "all 0.25s ease-in-out"
+                }
+              }
+            },
+            ".collapsed": {
+              ".dropdown-menu .dropdown-item:before": {
+                "display": "none"
+              },
+              ".dropdown .dropdown-menu .dropdown-item": {
+                "padding": "0.235em 1.5em 0.235em 1.5em !important",
+                "transition": "none",
+                "margin": "0 !important"
+              }
+            },
+            ".navbar": {
+              "min-height": "77px",
+              "transition": "all .3s",
+              "border-bottom": "1px solid transparent",
+              "&:not(.navbar-short)": {
+                "border-bottom": "1px solid #e6e6e6"
+              },
+              "& when not (@transparent)": {
+                "background": "@menuBgColor"
+              },
+              "& when (@transparent)": {
+                "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity)"
+              },
+              "&.opened": {
+                "transition": "all .3s"
+              },
+              ".dropdown-item": {
+                "padding": ".5rem 1.8rem"
+              },
+              ".navbar-logo img": {
+                "width": "auto"
+              },
+              ".navbar-collapse": {
+                "justify-content": "flex-end",
+                "z-index": "1",
+                "& when not (@showItems)": {
+                  "display": "none !important"
+                }
+              },
+              "&.collapsed": {
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  },
+                  "@media (min-width: 992px)": {
+                    "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                      "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
+                    }
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "55%"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": ".25rem 1.5rem",
+                  "text-align": "center"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-right": "0",
+                  "padding-top": ".5rem",
+                  "padding-bottom": ".5rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "55%"
+                  }
+                },
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3.8rem !important"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": ".25rem 1.5rem !important",
+                  "text-align": "center"
+                },
+                ".navbar-brand": {
+                  "flex-shrink": "initial",
+                  "flex-basis": "auto",
+                  "word-break": "break-word",
+                  "padding-right": "2rem"
+                },
+                ".navbar-toggler": {
+                  "flex-basis": "auto"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-top": ".5rem",
+                  "padding-bottom": ".5rem"
+                }
+              },
+              "&.navbar-short": {
+                "min-height": "60px",
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3rem !important"
+                  }
+                },
+                ".navbar-brand": {
+                  "padding": "0"
+                }
+              }
+            },
+            ".navbar-brand": {
+              "flex-shrink": "0",
+              "align-items": "center",
+              "margin-right": "0",
+              "padding": "0",
+              "transition": "all .3s",
+              "word-break": "break-word",
+              "z-index": "1",
+              ".navbar-caption": {
+                "line-height": "inherit !important"
+              },
+              ".navbar-logo a": {
+                "outline": "none"
+              }
+            },
+            ".dropdown-item.active, .dropdown-item:active": {
+              "background-color": "transparent"
+            },
+            ".navbar-expand-lg .navbar-nav .nav-link": {
+              "padding": "0"
+            },
+            ".nav-dropdown .link.dropdown-toggle": {
+              "margin-right": "1.667em",
+              "&[aria-expanded=\"true\"]": {
+                "margin-right": "0",
+                "padding": "0.667em 1.667em"
+              }
+            },
+            ".navbar.navbar-expand-lg .dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                ".dropdown-submenu": {
+                  "margin": "0",
+                  "left": "100%"
+                }
+              }
+            },
+            ".navbar .dropdown.open > .dropdown-menu": {
+              "display": "block"
+            },
+            "ul.navbar-nav": {
+              "flex-wrap": "wrap"
+            },
+            ".navbar-buttons": {
+              "text-align": "center",
+              "min-width": "170px"
+            },
+            "button.navbar-toggler": {
+              "outline": "none",
+              "width": "31px",
+              "height": "20px",
+              "cursor": "pointer",
+              "transition": "all .2s",
+              "position": "relative",
+              "align-self": "center",
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "currentColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              },
+              "&:nth-child(2)": {
+                "transform": "rotate(45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(3)": {
+                "transform": "rotate(-45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              }
+            },
+            ".navbar-dropdown": {
+              "padding": ".5rem 1rem",
+              "& when (@sticky)": {
+                "position": "fixed"
+              }
+            },
+            "a.nav-link": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            },
+            ".icons-menu": {
+              "flex-wrap": "nowrap",
+              "display": "flex",
+              "justify-content": "center",
+              "padding-left": "1rem",
+              "padding-right": "1rem",
+              "padding-top": "0.3rem",
+              "text-align": "center"
+            },
+            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
+              ".navbar": {
+                "height": "77px",
+                "&.opened": {
+                  "height": "auto"
+                }
+              },
+              ".nav-item .nav-link:hover::before": {
+                "width": "175%",
+                "max-width": "calc(100% ~'+' 2rem)",
+                "left": "-1rem"
+              }
+            }
+          },
+          "_name": "menu1",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"5.2\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\">\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"index.html\">\n                        <img src=\"@PROJECT_PATH@/assets/images/-icon-2-128x128.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Brand Name</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#footer1-1b\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">تواصل معنا</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#image1-r\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">من نحن</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#top\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                            الرئيسيه</a></li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                        Download Now</a></div>\n            </div>\n        </div>\n    </nav>\n\n</section>",
+          "_cid": "t0PB3LoSeu",
+          "_anchor": "menu1-13",
+          "_sourceTheme": "mobirise5",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "text-align": "right"
+            },
+            ".mbr-text": {
+              "text-align": "right"
+            },
+            ".mbr-section-title": {
+              "text-align": "right"
+            }
+          },
+          "_name": "content5",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"11\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\"><b>ضوابط وشروط الاستخدام لتطبيق نوصلك</b></h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\"><div>ضوابط وشروط الاستخدام لتطبيق نوصلك</div></h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">ضوابط وشروط الاستخدام \n<br>نظرة عامة\n<br> مؤسسة تطبيقات نوصلك لتقنية المعلومات  ( نوصلك ). \n<br> ضوابط وشروط الاستخدام لتطبيق نوصلك\n<br>تمثل هذه الضوابط والشروط اتفاق رسمي \"عقد\" مؤسسة تطبيقات نوصلك لتقنية المعلومات \"نوصلك\" ومستخدمي التطبيق (عملاء ومزودي خدمة). وتحكم شروط المستخدم هذه استخدامكم لتطبيق نوصلك والذي هو عبارة عن منصة إلكترونية تجمع بين مقدمي خدمة المساعدة على الطريق وبين العملاء المستخدمين للتطبيق، حيث يسمح نوصلك لمقدمي خدمة المساعدة على الطريق الاتصال بالعملاء مستخدمي التطبيق وتقديم الخدمات لهم وقفاً لما يتيحه التطبيق.\n<br>إن اي استخدام من قبلك للخدمات التي يوفرها تطبيق نوصلك يشكل موافقة منك على هذا العقد وأحكامه وتبعاً لذلك يجب عليك عدم استخدام التطبيق في حال لم تكن موافقاً على الأحكام والشروط الواردة في هذا العقد.\n<br>يحتفظ نوصلك بحق تعديل او تغيير هذه الأحكام والشروط دون إخطار مسبق، ويكون من مسؤوليتك كمستخدم للتطبيق مراجعة ضوابط وشروط الاستخدام بشكل دوري لمعرفة التحديثات التي تطرأ.\n<br>أحقية الحصول على الخدمات\n<br>أنت تقر وتضمن التالي:\n<br>أنه لم يسبق أن تم تعطيل استخدامك لخدمات نوصلك او منعك من استخدامها في اي وقت من الأوقات..\n<br>أنك لست منافساً لنوصلك، كما أنك لا تقدم اي منتج منافس للخدمات المقدمة من نوصلك..\n<br>أنك تتمتع بكامل القوة والسلطة للتعاقد وأنك بذلك لن تكون منتهكا لأي قانون أو عقد..\n<br>التعهدات والضمانات\n<br>أنت تقر وتضمن بأنك:\n<br>سوف تمتثل لكافة القوانين واللوائح المعمول بها في المملكة العربية السعودية.\n<br>سوف تقدم معلومات صحيحة ودقيقة إلى نوصلك وتقوم بتحديثها بشكل دوري.\n<br>سوف تراجع وتمتثل لأي إشعارات يتم إرسالها من خلال نوصلك فيما يتعلق باستخدامكم للخدمة المقدمة من تطبيق نوصلك..\n<br>لن تقوم بتكرار تراخيص من الباطن، أو إصدار، أو نشر، أو نقل، أو توزيع، أو تنفيذ، أو عرض، أو بيع، أو إعادة تصنيف خدمات نوصلك، والا فإنك تكون قد نقلت الخدمة أو قمت باستغلالها تجارياً، باستثناء ما يسمح به بموجب هذا العقد\n<br>لن تستخدم المعلومات، أو المحتوى أو أي بيانات تصل إليها أو تحصل عليها من خلال خدمات نوصلك في أي غرض آخر إلا للاستعمال الشخصي وسوف تستخدم التطبيق والخدمة حصراً للأغراض الخاصة بك ولن تبيعها لأي طرف ثالث (بما في ذلك على سبيل المثال لا الحصر تقديم أي خدمة إلى أي شخص آخر).\n<br>سوف تستخدم الخدمة أو التطبيق لأغراض مشروعة فقط، ولن تستخدم الخدمات لإرسال أو تخزين أي مواد غير قانونية أو بهدف الاحتيال.\n<br>لن تستخدم الخدمة أو التطبيق للتسبب بإيذاء أو مضايقة أو إزعاج أحد ما.\n<br>توافق على تبادل المعلومات بين الشركات داخل المنصة فيما يخص عملياتك المنفذة وتقييم التعاملات معك.\n<br>لن تعرقل التشغيل السليم لتطبيق نوصلك\n<br>   الإقرارات\n<br>تقر وتحصل على إقرار من السائق لنوصلك بأن طوال مدة هذا العقد:\n<br>الالتزام بجميع التصاريح والتراخيص وغيرها من الأذون الحكومية الضرورية لأداء وتنفيذ ومواصلة جهودكم وعملياتكم وأعمالكم بصفة عامة، وخدمة التوصيل والنقل والمساعدة على الطريق بصفة خاصة.\n<br>تلتزمان بجميع القوانين واللوائح المحلية، ومن بينها القوانين المتعلقة بتشغيل خدمات نقل المركبات / نقل العفش / خدمات المساعدة على الطريق، أو خدمات التوصيل أو خدمات النقل، وأنك ستكون وحدك مسئول عن أي مخالفات لتلك القوانين واللوائح المحلية. وان تكون مركبة النقل مسموح لها الاستعمالات المحددة من الجهات الحكومية للمركبات نقل العام او الخاص\n<br>.\n<br>أن السائق لديه رخصة قيادة صالحة وأنه مرخص له بقيادة المركبة وفقاً للمستندات التي تقدمها لنوصلك، وأن لديك جميع التراخيص والاعتمادات والتصاريح الملائمة لتقديم خدمة نقل المركبات في المدينة التي يتم فيها تقديم أو تنفيذ خدمة التوصيل والنقل.\n<br>أن السائق لديه مستوى ملائم وحديث من الخبرات المعرفية والعملية التي تمكنه من تقديم خدمة التوصيل والنقل، وأن خدمة التوصيل والنقل سيتم تقديمها أو توفيرها أو دعمها باستخدام سائقين مؤهلين ومدربين تدريبا ملائما ويعملون وفقا للمهارات والرعاية والعناية المطلوبة.\n<br>تقر بأنك قد حصلت وتحتفظ ببوليصة صالحة لتأمين مسئولية (النقل أو الإصابة الشخصية أو الغير أو المسئولية العامة) وغيره من أنواع التأمين مما يجري العمل عليه في السوق (بمبالغ الغطاء التأميني المعتادة في الصناعة) فيما يتعلق بتشغيل السيارات و/أو التأمين التجاري لتغطية أي من مخاطر متوقعة وأضرار وخسائر تتعلق بتشغيل خدمات نقل المركبات/ خدمات المساعدة على الطريق، أو خدمة النقل (بما في ذلك خدمة التوصيل). يجب أن يقدم مقدم الخدمة مع أول طلب من مؤسسة تطبيقات نوصلك لتقنية المعلومات.\n<br>تقر بضمان الحفاظ على المركبة نظيفة طوال الوقت، وفي حالة تشغيلية جيدة وتتفق مع معايير السلامة الصناعية المقررة للسيارات من ذلك النوع.\n<br>التزام السائق بأن تكون المركبة طوال الوقت بمعايير الجودة التي وضعتها نوصلك\n<br>لا توفر نوصلك أية معدات او سطحات لمزودي الخدمات فهي تعتمد على الاقتصاد التشاركي بين مزودي الخدمة و نوصلك.\n<br>الشروط ان يكون لديك ( سطحة لخدمة النقل والإزاحة، أو دينا - وانيت بكب )\n<br>التسجيل معنا عن طريق تحميل التطبيق \n<br> \n<br>يجوز لنوصلك في أي وقت إخطارك بأي تعديل أو تغيير مقترح لشروط هذا العقد أو الرسم المتفق عليه وفي حال فسخك لهذا العقد مع الاحتفاظ بالحقوق المستحقة لنوصلك خلال مدة سبع أيام، فإنك تكون قد قبلت التغييرات التي يحتوي عليها إخطار التغيير. وفي حالة اعتراضك على التغييرات أو التعديلات التي يحتوي عليها أخطار التغيير، يجوز لنوصلك إنهاء العقد المبرم معك لسبب مشروع بأثر فوري ودون الحاجة إلى تعويضك بأي صورة من الصور.\n<br>.\n<br>لن تحاول إلحاق الضرر بالخدمة أو التطبيق بأي شكل من الأشكال.\n<br>لن تنسخ أو توزع التطبيق أو المحتويات الأخرى دون الحصول على إذن كتابي من نوصلك..\n<br>سوف تحافظ على كلمة المرور لحسابك أو أي وسيلة تعريف نقدمها لك وتتيح الدخول إلى حسابك، بشكلٍ آمن وسري.\n<br>سوف تقدم لنا كافة الدلائل التي تثبت هويتك وفقاً لتقدير نوصلك الخاص.\n<br>سوف تستخدم فقط أجهزة الاتصال اللاسلكي بالإنترنت أو حساب بيانات الجيل الثالث المصرح لك باستخدامها.\n<br>عند طلبك لخدمة المساعدة على الطريق عبر استخدام الرسائل القصيرة، سوف يتم تطبيق الرسوم المعتادة على هذه الرسائل.\n<br>يحق لنوصلك رفض تقديم الخدمة أو استخدام التطبيق دون إبداء أسباب\n<br>بأنك لن تقوم بإلغاء الخدمة عند وصول السائق لتنفيذ الخدمة، وأن أحقيتك في إلغاء الخدمة تكون محدودة بفترة (5) دقائق بعد تقديم الطلب، وبأنه في حال إلغاء الخدمة لأي سبب من الأسباب بعد فترة السماح بإلغاء الطلب، فسيتم تغريمك قيمة (50) ريال سعودي نتيجة لعملية الإلغاء.\n<br>نطاق الترخيص\n<br>تمنحك نوصلك ترخيص غير حصري، وغير قابل للتحويل، وغير قابل للتنازل، وغير قابل للترخيص من الباطن وغير قابل للإلغاء وذلك للحصول على خدماتنا واستخدامها فقط للغرض الشخصي (ليس لأي أغراض تجارية على سبيل المثال لا الحصر) وفقاً لهذا العقد، لذا يجب عليك:\n<br>1- عدم إتاحة الخدمات أو تأجير، أو استئجار أو تخصيص أو إعادة بيع، أو توزيع أو ترخيص من الباطن لهذه الخدمات إلى أي طرف ثالث.\n<br>2 - عدم تعديل، أو اجتزاء، أو ترجمة، أو تلخيص، أو إنشاء عمل فرعي يقوم على فك، أو تنفيذ هندسة عكسية لتصميم تطبيق نوصلك أو خلاف ذلك من تحديد أو محاولة تحديد أو محاولة الوصول إلى شفرة المصدر أو التصميم الداخلي للخدمات أو أي نص، أو صور الوسائط المتعددة (صور، صوتيات، ملفات فيديو)، أو البيانات أو غيرها من المعلومات التي تقدمها نوصلك أو الطرف الثالث من مقدمي الخدمة.\n<br>3- عدم حذف، أو تغيير، أو غير ذلك من التعديل على أي حق من حقوق النشر أو غيرها من الإخطارات الرسمية الواردة في الخدمات.\n<br>4 - عدم تعمد نقل، أو توزيع الخدمات، أو السماح بتحميل الخدمات للاستخدام بخلاف ما هو محدد هنا..\n<br> عدم الادعاء بمنح الخدمات أو السماح بالوصول إليها لأي شخص غيرك..5-\n<br>6 - عدم السماح بمشاركة اسم المستخدم / أو كلمة المرور أو غيرها من مسوغات الوصول إلى خدمات نوصلك.\n<br>وكجزء من سياسة الشحن الخاصة بخدمة نوصلك يحظر على المستخدمين والمندوبين شراء أو توصيل أو إرسال أو تلقي أو استلام الفئات التالية من المواد والمنتجات وما يتعلق بها، ويتوجب عليك السماح للمزود بفتح أي إرسالية والتأكد من سلامتها وموافقتها للشروط.\n<br> \n<br>أمثلة للمنتجات والأصناف\n<br> \n<br>المشروبات الروحية والمسكرة، النبيذ، الشمبانيا، البيرة وغيرها.\n<br> \n<br>أجزاء الحيوانات، الدماء أو السوائل الأخرى، الأعشاب الضارة، البذور المحظورة، النبات وأي مواد عضوية أخرى (تشمل المشتقات الإنتاجية) المعرضة لخطر الانقراض أو التي يمنع الاتجار فيها بموجب القانون.\n<br> \n<br>المواد الإباحية أو تلك التي من الممكن أن تشكل استغلالاً جنسياً للأطفال.\n<br> \n<br>النسخ غير القانونية من الكتب والموسيقى والأفلام واي مواد أخرى مرخصة ومحمية بما في ذلك النسخ التي تتعدى على حقوق الملكية والنسخ غير القانونية من التطبيقات والبرامج وألعاب الفيديو وأي مواد أخرى مرخصة ومحمية مثل التطبيقات الأصلية أو البرامج الحزمية أو المنتجات الأخرى التي تمكن من إرسال رسائل مجهولة المصدر إلى البريد الإلكتروني.\n<br> \n<br>السلع أو التصميمات المقلدة، المواد غير الموقعة من المشاهير والتي تحتاج في العادة إلى مثل هذا التوقيع، التوقيعات المزورة، العملات والطوابع وغيرها من السلع التي قد تكون غير قانونية.\n<br> \n<br>أي شرائح أو أجهزة أخرى تستخدم لتجاوز الحماية التقنية على الأجهزة الرقمية بما في ذلك أجهزة فك شفرات هواتف الآيفون.\n<br> \n<br>المواد المحظورة والمخدرات والأدوية غير القانونية ومعدات التحضير بما في ذلك الحبوب العشبية مثل السالفين والفطر السحري والمواد التي تروج لاستخدام مثل هذه المنتجات؛ أو المواد القانونية مثل النباتات والأعشاب بطريقة تقتضي هضمها أو استنشاقها او استخلاص أي مواد غير قانونية منها تؤدي نفس أثر المخدرات أو المواد غير القانونية أو التي تدعي تحقيق فوائد صحية دون إثبات أو برهان.\n<br> \n<br>تذاكر اليانصيب والمراهنات الرياضية وعضويات مواقع القمار على الشبكة وأي محتوى متعلق بذلك.\n<br> \n<br>الأدلة والتوجيهات والمعلومات والمتطلبات التي تخالف القانون من خلال التخريب أو السماح بالوصول غير القانوني إلى التطبيقات والبرامج والأجهزة الخادمة ومواقع الإنترنت أو أي ممتلكات أخرى محمية.\n<br> \n<br>الأعضاء البشرية أو أي أجزاء من الجسم والسوائل والخلايا الجذعية والأجنة.\n<br> \n<br>المواد والمنتجات والمعلومات التي تروج لسلع غير قانونية أو تمكن من تنفيذ أفعال غير قانونية؛ السلع التي لا تملكها أو ليس لك الحق في بيعها؛ السلع التي يتم إنتاجها بالتعدي على حقوق ملكية لجهات أخرى؛ السلع المهربة والسلع التي تخالف أنظمة الاستيراد والتصدير والديباجات؛ السيارات الخاضعة لقيود النقل؛ السلع المسجلة في السجلات العامة (مثل العقارات) والتي يتطلب نقلها إجراءات رسمية لا يمكن إنجازها على الشبكة. وتكون أنت والعميل مسؤولين مسؤولية كاملة عن التحقق من أن جميع المواد التي تقومون بنقلها قانونية ومصرح بها.\n<br> \n<br>الأجهزة المعدة لالتقاط إشارات الأقمار الصناعية والكابلات مجاناً وأجهزة فك شفرة البث الكابلي وبطاقات التشفير وأجهزة برمجة بطاقات التشفير والمعدات والمنتجات غير القانونية التي تستخدم في تعديل الهواتف الخليوية وغيرها من المعدات التي تعتبر غير قانونية بموجب أنظمة هيئة الاتصالات أو أي جهة منظمة في البلد التي تعرض فيها تلك السلع.\n<br> \n<br>العلاجات والأدوية غير المثبتة أو المواد التي يتم تسويقها على أنها علاج سريع وناجع للمشكلات الصحية.\n<br> \n<br>السلع والمواد الأدبية والمنتجات أو أي مواد أخرى تعمل على: ● تشويه السمعة والتشهير بأي شخص أو مجموعة من الأشخاص على أساس العرق أو البلد أو الدين أو النوع أو أي عامل آخر. ● تشويه السمعة والتشهير بأي شخص أو مجموعة أشخاص محمية من التشهير وتشويه السمعة بموجب القانون السائد (مثل الحماية المتوفرة للأسر الحاكمة في بعض المناطق). ● التحريض على أو تشجيع الأفعال العنيفة. ● الترويج للتعصب والكراهية. ● الترويج للانتماء إلى المجموعات الإرهابية أو أي منظمات أخرى محظورة بموجب القانون. ● الترويج للنظريات التعديلية المحددة بموجب القانون. ● تنافي الضوابط الأخلاقية السائدة.\n<br> \n<br>المشاهد والصور والمواد الإجرامية مثل المتعلقات الشخصية المرتبطة بالجرائم أو الأفعال الإجرامية.\n<br> \n<br> \n<br> \n<br> \n<br> \n<br>الألعاب النارية والسلع المتعلقة بها التي تعتبر في الأسواق التي تباع فيها: سامة، قابلة للاشتعال أو مشعة ومواد مثل البارود والمواد المتفجرة والبنزين وعبوات البروبان.\n<br> \n<br>الأكياس الهوائية؛ البطاريات التي تحتوي على الزئبق؛ الفريون ومواد التبريد المماثلة؛ المذيبات الكيماوية والصناعية؛ العمليات الطبية؛ لوحات أرقام السيارات؛ ديباجات الشرطة ومعدات سلطات تطبيق القانون؛ أجهزة فتح الأقفال؛ الأجهزة الطبية؛ المبيدات الحشرية؛ معدات اللياقة والمحفزات الكهربائية؛ المواد المسترجعة؛ معدات التفتيش والمراقبة المستخدمة بشكل أساسي للتنصت على المكالمات الشفهية أو الإلكترونية بشكل غير قانوني أو التمكين من التنصت غير القانوني على الأشخاص و تسجيل  مكالماتهم ؛ السلع الخاضعة للرقابة من قبل الحكومة أو أي سلطات أخرى.\n<br> \n<br>أجهزة التشويش على الرادار، أغطية لوحات السيارات، أجهزة تغيير إشارات المرور وغيرها من المنتجات ذات الصلة.\n<br> \n<br>الأسلحة، الذخيرة وأي مواد أخرى تشمل، دون حصر، الأسلحة والسكاكين المخفاة وصعبة الكشف والأسلحة التي تأخذ شكل قطع فنية وكاتمات الصوت وخزائن الذخيرة والأسلحة الرشاشة الخفيفة والغاز المسيل للدموع.\n<br> \n<br>العملات المخفضة أو تداول العملات والعملات المدعومة بالمعادن الثمينة.\n<br> \n<br>يكون لدينا الحق في رفض تقديم الخدمة لجميع الأطفال دون الثامنة عشرة. وإضافةً إلى ذلك يكون لدينا الحق في رفض التوصيل إلى أي موقع داخل أو حول المدارس الابتدائية أو المتوسطة.\n<br> \n<br>نرفض بشكل كامل أي لغة مسيئة أو سلوك سيء تجاه الشركة و/أو الخدمة التي نقدمها و/أو أيٍ من موظفينا و/أو أيٍ من مزودين الخدمة العاملين معنا. إذا تقرر بناءً على تقديرنا استخدام أي عميل للغة مسيئة للشركة /أو الخدمة /أو الموظفين /أو مزودين الخدمة فسيؤدي ذلك إلى إغلاق حساب العميل بشكل نهائي دون رد أي مبالغ مستحقة. ويعتبر هذا تهديد بالمقاضاة أو التشهير أو القدح.\n<br> \n<br>نقل الأشخاص داخل المدينة\n<br> \n<br>الأشياء الكبيرة التي لا تناسب السيارة الصغيرة والأشياء التي يتجاوز وزنها 40 كيلو .\n<br> \n<br>الأشياء التي تتجاوز قيمتها 5,000 ريال سعودي\n<br>\n<br>خرق سياسة الشحن: تحتفظ نوصلك بالحق في السعي لتنفيذ أي معالجات متاحة لأي خرق لسياسة الشحن ويشمل ذلك، دون حصر، الحق في حجب إمكانية الوصول إلى خدمات وبرامج نوصلك.\n<br>حقوق الملكية الفكرية\n<br>جميع حقوق الملكية الفكرية لهذه الخدمات وكافة المواد المتعلقة بها أو التي تظهر عليها (وتشمل أي محتوى تقوم بتقديمه أو بإدراجه - على سبيل المثال لا الحصر) هو ملكية لنوصلك.\n<br>يجب عليك ألا تقوم بإعادة إنتاج أو السماح لأي شخص، لأي سبب من الأسباب، باستخدام أو إعادة إنتاج الخدمات أو أي علامات تجارية أو غيرها من الأسماء التجارية التي تظهر في الخدمات.\n<br>الأسعار\n<br>تعتمد الأسعار الظاهرة في التطبيق لكل خدمة قبل الطلب وقد يختلف السعر بحسب المنطقة وزمن طلب الخدمة وتوفر مزودي الخدمة في نطاق البحث. لنقل المركبات ( السطحة  – الشاحنة) يوجد عداد يعتمد على نوع ( السطحة – الشاحنة- وانيت بكب – سطحه ونش ) و المسافة و مدة الرحلة المقطوعة بالمركبة بالإضافة إلى وقت إرسال الطلب.\n<br>الدفع\n<br>تحتفظ نوصلك لنفسها بالحق في فرض رسوم جديدة على استخدام التطبيق أو الخدمة أو كليهما.\n<br>إذا قررت نوصلك فرض رسوم جديدة، فإنه سيتم إفادتك بذلك وسيتم السماح لك بالاستمرار في العقد أو إنهائه.\n<br>يمكن العثور على الأسعار التي يطبقها مقدمي خدمة المساعدة على الطريق مقابل تقديم الخدمة على موقع الويب أو من خلال التطبيق.\n<br>يجوز لنوصلك تعديل أو تحديث الأسعار من وقت لآخر. يقع على عاتقك مسؤولية البقاء على معرفة بالأسعار الحالية لخدمة المساعدة على الطريق.\n<br>يتوجب عليك دفع قيمة خدمة المساعدة على الطريق إلى مقدم الخدمة نقداً او عن طريق البنك، وفور تقديم الخدمة لك. وتتحمل وحدك مسؤولية دفع جميع الرسوم في موعدها. وإنك تقر بأن أي مبلغ يُدفع لا يمكن استرداده.\n<br>تقر وتوافق بأنك تسلّم وتتمثل القيمة والمسافة التي يحتسبها نوصلك والذي يضمن نوصلك دقته بنسبة، وتوافق على أن الأجرة المحتسبة والمسافة المقطوعة هي تلك التي يقوم عداد نوصلك باحتسابها عند كل عملية نقل.\n<br>تقر وتوافق بأنه وبأي حال من الأحوال وفي حال تعطّل عداد نوصلك أثناء عملية النقل لأي سبب سواءً كان السبب راجع إلى تقنيات نوصلك، أو إلى التجهيزات الخاصة بكم، فإنكم تلتزمون بدفع قيمة الأجرة الأساسية فقط لمقدم الخدمة وهي المبلغ الظاهر في التطبيق لنوع الخدمة المطلوبة.\n<br>تقر وتوافق بأن تلتزم بالأمانة دائماً فيما يتعلق بقيمة وحقيقة العمليات وفتح العداد وخلافه، وتوافق بأنه في حال اكتشاف أي تحايل أو تلاعب أو مخادعة فإنك ستكون عرضة لإيقاف الخدمات الخاصة بك وحجبها عن تطبيق نوصلك، بالإضافة إلى حق نوصلك في تحصيل غرامة تحايل تبدأ من (500) ريال سعودي وتصل إلى (5000) ريال سعودي، بالإضافة إلى حق نوصلك بالمطالبة بالتعويضات عن كافة الأضرار التي نتجت أو ستنتج نتيجة لهذا التحايل والتلاعب.\n<br>التعويض\n<br>بموافقتك على شروط المستخدم الماثلة واستخدام التطبيق أو الخدمة، فإنك توافق على الدفاع عن نوصلك والشركات التابعة لها والجهات المرخِّصة لها وكل مسؤول من مسؤوليها ومديريها وغيرهم من المستخدمين والموظفين والمحامين والوكلاء وعدم إلحاق الضرر بهم وإبراء ذمتهم من أي مطالبات وتكاليف وأضرار وخسائر ومسؤوليات ومصروفات (بما في ذلك أتعاب وتكاليف المحاماة على سبيل المثال لا الحصر) تنشأ عن أو ترتبط بما يلي:\n<br>انتهاكك أو مخالفتك لأي شرط من شروط المستخدم الماثلة هذه أو لأي قانون أو لوائح معمول بها، سواء أشير إليها في شروط وأحكام الاستخدام هذه او لا.\n<br>انتهاكك لأي حقوق تخص الغير، بما في ذلك مُقدمي خدمة المساعدة على الطريق الذين ينظمهم التطبيق.\n<br>استخدامك أو إساءة استخدامك للتطبيق أو الخدمة.\n<br>المسؤولية القانونية\n<br>المعلومات والتوصيات والخدمات أو أي منها التي قُدمت لك على أو من خلال موقع الويب والخدمة والتطبيق هي لأغراض المعلومات العامة فقط ولا تمثل أي نصيحة.\n<br>وكلاء نوصلك او مزودين الخدمة أو المرخصون من قبل الشركة أو الشركات التابعة لها لن يكونوا مسؤولين بأي حال من الأحوال عن الأضرار المباشرة أو غير المباشرة أو العقوبات أو الأضرار الاستثنائية أو العرضية أو الأمراض المعدية أو الأضرار الجانبية (بما في ذلك على سبيل المثال لا الحصر، الأضرار الناتجة عن خسارة الأرباح أو توقف الأعمال وفقدان المعلومات التجارية أو الخسائر المالية الأخرى) التي تنشأ بشكل مباشر أو غير مباشر عن الوصول إلى الخدمات أو استخدامها (أو عدم استخدامها) أو من الاعتماد عليها.\n<br>ستحافظ نوصلك قدر الإمكان على صحة وتحديث الموقع والتطبيق ومحتوياته، لكنها لا تضمن أن (محتويات) الموقع أو التطبيق خالية من الأخطاء والعيوب والبرامج الضارة والفيروسات ولا تضمن صحة ودقة وتحديث موقع الويب والتطبيق.\n<br>لا تتحمل نوصلك المسؤولية عن أي أضرار تنتج عن استخدام (أو عدم القدرة على استخدام) الموقع أو التطبيق، بما في ذلك الأضرار التي تسببها البرامج الضارة أو الفيروسات، كما لا تتحمل مسؤولية عدم صحة أو عدم اكتمال المعلومات أو موقع الويب أو التطبيق، ما لم يكن هذا الضرر ناتج عن سوء سلوك عمدي أو عن إهمال جسيم من جانب نوصلك.\n<br>لا تتحمل نوصلك أي مسؤولية عن أي أضرار تنتج عن استخدام (أو عدم القدرة على استخدام) وسائل اتصال إلكترونية مع الموقع الإلكتروني أو مع التطبيق، بما في ذلك - على سبيل المثال لا الحصر - الأضرار الناتجة عن عدم تسليم المكاتبات الإلكترونية أو التأخر في تسليمها أو اعتراضها أو التلاعب في المكاتبات الإلكترونية من جانب الغير أو من جانب برامج الكمبيوتر المستخدمة للمكاتبات الإلكترونية ونقل الفيروسات.\n<br>تقع مسؤولية جودة خدمة المساعدة على الطريق المطلوبة باستخدام التطبيق أو الخدمة بأكملها على عاتق مقدم الخدمة الذي يقدم لك في النهاية خدمة المساعدة على الطريق.\n<br>لا تقبل نوصلك تحت أي ظرف من الظروف أي مسؤولية تتعلق بخدمات المساعدة على الطريق التي يقدمها مقدم الخدمة أو تنشأ عنها،\n<br>نوصلك لا تقبل المسؤولية عن أي أفعال أو تصرفات أو سلوك أو إهمال، أو جميع ما سبق، من جانب مقدم خدمة المساعدة على الطريق.\n<br>إن أي شكاوى بشأن خدمات المساعدة على الطريق ينبغي تقديمها على مقدم الخدمة.\n<br>تعديل الخدمات\n<br>تحتفظ نوصلك بحقها، وبإرادتها المنفردة، بأن تقوم في أي وقت بالآتي:\n<br>تغيير الخدمات أو أي مواد مرتبطة بها؛ و/ أو إيقاف نشر خدماتها.\n<br>إذا قررت نوصلك إيقاف نشر خدماتها، فإنها قد تقوم بإرادتها باستبدال الخدمات بمواد أخرى مشابهة.\n<br>حدود المسئولية\n<br>لا تقدم نوصلك أي ضمانات، واضحة أو ضمنية، تتعلق بالخدمات، فهي جميعها يتم تقديمها \"كما هي\".\n<br>تخلي نوصلك مسئوليتها بشكل واضح، إلى أقصى درجة ممكنة وفقاً للقانون، عن كافة الضمانات، وتشمل ولا تقتصر على، ضمانات الملائمة لغرض معين، الملائمة لمواصفات وأسواق معينة، وقابلية حقوق الملكية للبيع.\n<br>نوصلك لا تضمن دقة، أو محتوى، أو توقيت الخدمات أو النتائج التي قد ينالها أو لا ينالها مستخدم الخدمات.\n<br>ولن تكون نوصلك أو وكلائها أو مانحي التراخيص أو الشركات التابعة لها مسئولة في أي حال من الأحوال عن الأضرار المباشرة أو غير المباشرة أو الجزاءات أو الأضرار الخاصة أو حدوث أضرار عرضية أو تبعية (وتشمل على سبيل المثال لا الحصر، الأضرار الناتجة عن خسارة الأرباح، تعطل الأعمال، فقدان معلومات الأعمال أو غيرها من الخسائر المالية) الناجمة بشكل مباشر أو غير مباشر عن الوصول إلى الخدمات واستخدامها (أو الفشل في استخدامها) أو الاعتماد عليها.\n<br>الأمان\n<br>إنك تقر بتحملك المسئولية منفرداً عن خصوصية الخدمات، وتكون مسئولاً منفرداً عن استخدامها من قبل أي شخص آخر باستخدام حسابك و/أو اسم المستخدم أو كلمة المرور أو مسوغات الوصول الخاصة بك.\n<br>كما أنك توافق على إخطار نوصلك إذا أصبحت على علم بأي خسارة، أو سرقة، أو استخدام غير مصرح به لأي كلمة مرور، أو اسم مستخدم أو عنوان بروتكول الانترنت IP، أو غير ذلك من أساليب الوصول إلى الخدمات.\n<br>التعاملات مع الغير\n<br>أثناء استخدام موقع الويب والتطبيق والخدمة، قد يتم من آن لآخر توفير ارتباطات لمواقع ويب يمتلكها ويتحكم فيها الغير من أجل مراسلة الغير أو شراء منتجات أو خدمات منه أو المشاركة في العروض الترويجية التي يقدمها. تنتقل بك تلك الارتباطات إلى خارج الموقع والتطبيق والخدمة، وهي خارج نطاق سيطرة نوصلك.\n<br>أثناء استخدامك لموقع الويب والتطبيق والخدمة، قد تراسل أو تشتري بضائع أو خدمات أو تشارك في عروض ترويجية مقدمة من مقدمي خدمات أو مُعلنين أو جهات راعية تعرض بضائعها أو خدماتها عبر ارتباط على موقع الويب أو من خلال التطبيق أو الخدمة. تنتقل بك تلك الارتباطات إلى خارج الموقع والتطبيق والخدمة، وهي خارج نطاق سيطرة نوصلك. إن مواقع الويب التي يمكنك الارتباط بها لها شروط وأحكام مستقلة وكذلك سياسة خصوصية مستقلة. ولا تتحمل نوصلك أي مسؤولية عن محتوى مواقع الويب تلك وأنشطتها ولا يمكن مساءلتها عنها. ولذلك، فإنك تتحمل كامل المخاطر التي تنتج عن زيارة تلك المواقع أو دخولها.\n<br>يُرجى ملاحظة أن تلك المواقع الأخرى قد ترسل ملفات تعريف الارتباط الخاصة بها إلى المستخدمين أو تجمع بياناتهم أو تطلب معلومات شخصية، ومن ثم، نوصيك بالتحقق من شروط الاستخدام أو سياسات الخصوصية الموجودة على تلك المواقع قبل استخدامها.\n<br>مدة العقد وإنهاؤه\n<br>يكون العقد المُبرم بينك وبين نوصلك غير محدد المدة. ويحق لك إنهاء العقد في أي وقت بحذف التطبيق المُثبّت على هاتفك الذكي حذفًا نهائيًا، وبذلك تعطل استخدامك للتطبيق والخدمة. يمكنك أن تغلق حساب المستخدم الخاص بك في أي وقت.\n<br>يحق لنوصلك إنهاء العقد بأثر فوري في أي وقت (بتعطيل استخدامك للتطبيق والخدمة)، وذلك في حالة قيامك بأي مما يلي:\n<br>انتهاك أو خرق أي شرط من شروط المُستخدم،\n<br>إذا رأت نوصلك أنك تسيء استخدام التطبيق أو الخدمة.\n<br>إن نوصلك غير ملزمة بإرسال سابق إخطار بإنهاء العقد.\n<br>بطلان حكم أو أكثر\n<br>لا يؤثر بطلان أي حكم من أحكام شروط المستخدم الماثلة على صحة باقي الأحكام الأخرى الواردة فيها.\n<br>في حالة وجود أي حكم باطل في شروط المستخدم الماثلة أو وجود حكم غير مقبول في ظروف معينة وفقًا لمعايير المعقولية والعدالة وإلى هذا المدى فقط، يُعمل بدلاً منه بين الطرفين بحكم يكون مقبولاً مراعاةً لجميع الظروف ويتوافق مع أحكام الشرط الباطل قدر الإمكان، مع مراعاة محتوى شروط المستخدم الماثلة وغرضها.\n<br>تعديل الخدمة وشروط المستخدم\n<br>تحتفظ نوصلك لنفسها بالحق، وفقًا لتقديرها وحدها، في تعديل أي شرط من شروط المستخدم الماثلة أو استبداله، أو تغيير الخدمة أو التطبيق أو تعليقهما أو إيقافهما (بما في ذلك على سبيل المثال لا الحصر، توفير أي ميزة أو قاعدة بيانات أو محتوى) في أي وقت، وذلك بنشر إخطار على الموقع أو بإرسال إخطار لك من خلال الخدمة أو التطبيق أو عبر البريد الإلكتروني.\n<br>يجوز لنوصلك أن تضع قيودًا على ميزات وخدمات مُعيَّنة أو تقصر وصولك إلى أجزاء من الخدمة أو الخدمة بأكملها دون إخطار أو مسؤولية.\n<br> \n<br>الإخطار\n<br> يجوز لنوصلك أن ترسل إخطارًا عن طريق إرسال إخطار عام عن الخدمة أو التطبيق، أو بإرسال بريد إلكتروني إلى عنوانك البريدي المُسجل في معلومات الحساب لدى نوصلك، أو بإرسال مكاتبة بالبريد العادي على عنوانك المسجل في معلومات الحساب لدى نوصلك.\n<br>القانون المعمول به وحل النزاعات\n<br>تخضع شروط المستخدم الماثلة ويطبق على تسوية أي نزاع أو مطالبة أو خلاف ينشأ عن شروط المستخدم الماثلة أو يتعلق بها أو أي انتهاك لها أو إنهائها أو تنفيذها أو تفسيرها أو صحتها أو استخدام الموقع أو الخدمة أو التطبيق، للقوانين والأنظمة المطبقة في المملكة العربية السعودي&nbsp;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t0PB3LT8fo",
+          "_anchor": "content5-14",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".social-row": {
+              "display": "flex",
+              "flex-wrap": "wrap"
+            },
+            ".soc-item": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "border-radius": "50%",
+              "background-color": "white",
+              "margin-right": "0.5rem",
+              "margin-bottom": "1rem",
+              "padding": "0.5rem",
+              "height": "2.5rem",
+              "width": "2.5rem"
+            },
+            "@media (max-width: 767px)": {
+              ".row": {
+                "text-align": "center"
+              },
+              ".social-row": {
+                "justify-content": "center"
+              }
+            },
+            ".list": {
+              "list-style": "none",
+              "padding-left": "0",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "2rem"
+              },
+              "@media (min-width: 992px)": {
+                "margin-bottom": "0rem"
+              },
+              "color": "#bbbbbb"
+            },
+            ".mbr-text": {
+              "color": "#bbbbbb",
+              "text-align": "right"
+            },
+            ".mbr-iconfont": {
+              "color": "black"
+            },
+            "H5": {
+              "text-align": "right"
+            },
+            ".copyright": {
+              "text-align": "center"
+            }
+          },
+          "_name": "footer1",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer1\" group=\"Footers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" global once=\"footers\" mbr-class=\"{\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\" checked>\n        <input type=\"range\" name=\"socialCount\" title=\"Social Count\" min=\"1\" max=\"4\" step=\"1\" value=\"2\" condition=\"showSocial\">\n        <input type=\"checkbox\" title=\"Copyright\" name=\"showCopyright\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background8.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#353535\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row mbr-white\">\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 mbr-text class=\"mbr-section-subtitle mbr-fonts-style mb-2\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\"><b>&nbsp;</b></h5>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li class=\"mbr-text item-wrap\">&nbsp; &nbsp;&nbsp;</li>\n                </ul>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 mbr-text class=\"mbr-section-subtitle mbr-fonts-style mb-2\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n                    <b>روابط</b>\n                </h5>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n\n                    <li class=\"mbr-text item-wrap\"><b><a href=\"privacy-policy.html\" class=\"text-white\">سياسة الخصوصية</a></b></li><li class=\"mbr-text item-wrap\"><a href=\"terms.html\" class=\"text-white\">الشروط والأحكام</a></li>\n                </ul>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 mbr-text class=\"mbr-section-subtitle mbr-fonts-style mb-2\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n                    <b>العنوان</b>\n                </h5>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li class=\"mbr-text item-wrap\">الرياض - حي العوالي - طريق نجم الدين</li><li class=\"mbr-text item-wrap\">السجل التجاري: 1010751371</li>\n                </ul>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-2\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\"><b>اتصل بنا</b></h5>\n                <p class=\"mbr-text mbr-fonts-style mb-4\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\"><a href=\"tel:+966542766832\" class=\"text-white\">+966542766832</a><br><a href=\"mailto:info@nwselk.com\" class=\"text-white\">info@nwselk.com</a><br></p>\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle && showSocial\">\n                    <b>حمل التطبيق</b></h5>\n                <div class=\"social-row display-7\" mbr-if=\"showSocial\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://play.google.com/store/apps/details?id=com.myth.nwselk\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-android socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                        <a href=\"https://apps.apple.com/app/id1615977334\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-apple socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-instagram\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon socicon-instagram\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 mt-4\" mbr-if=\"showCopyright\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style copyright align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright\" data-app-placeholder=\"Type Text\">جميع الحقوق محفوظة&nbsp;© تطبيق نوصلك</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t2V24U22Ve",
+          "_anchor": "footer1-1b",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {}
+        }
+      ]
+    }
+  }
+}

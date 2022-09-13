@@ -1,0 +1,104 @@
+
+<section
+ data-bs-version='5.1'
+ class='footer1 cid-t2V24U22Ve'
+ once='footers'
+ id='footer1-1b'
+>
+
+ <div class='container'>
+  <div class='row mbr-white'>
+   <div class='col-12 col-md-6 col-lg-3'>
+    <h5 class='mbr-section-subtitle mbr-fonts-style mb-2 display-7'>
+     <strong>&nbsp;</strong>
+    </h5>
+    <ul class='list mbr-fonts-style display-4'>
+     <li class='mbr-text item-wrap'>&nbsp; &nbsp;&nbsp;</li>
+    </ul>
+   </div>
+   <div class='col-12 col-md-6 col-lg-3'>
+    <h5 class='mbr-section-subtitle mbr-fonts-style mb-2 display-7'>
+     <strong>روابط</strong>
+    </h5>
+    <ul class='list mbr-fonts-style display-4'>
+
+     <li class='mbr-text item-wrap'>
+      <strong>
+       <a
+        href='privacy-policy.html'
+        class='text-white'
+       >سياسة الخصوصية
+       </a>
+      </strong>
+     </li>
+     <li class='mbr-text item-wrap'>
+      <a
+       href='terms.html'
+       class='text-white'
+      >الشروط والأحكام
+      </a>
+     </li>
+    </ul>
+   </div>
+   <div class='col-12 col-md-6 col-lg-3'>
+    <h5 class='mbr-section-subtitle mbr-fonts-style mb-2 display-7'>
+     <strong>العنوان</strong>
+    </h5>
+    <ul class='list mbr-fonts-style display-4'>
+     <li class='mbr-text item-wrap'>الرياض - حي العوالي - طريق نجم الدين</li>
+     <li class='mbr-text item-wrap'>السجل التجاري: 1010751371</li>
+    </ul>
+   </div>
+   <div class='col-12 col-md-6 col-lg-3'>
+    <h5 class='mbr-section-subtitle mbr-fonts-style mb-2 display-7'>
+     <strong>اتصل بنا</strong>
+    </h5>
+    <p class='mbr-text mbr-fonts-style mb-4 display-4'>
+     <a
+      href='tel:+966542766832'
+      class='text-white'
+     >+966542766832
+     </a>
+     <br>
+     <a
+      href='mailto:info@nwselk.com'
+      class='text-white'
+     >info@nwselk.com
+     </a>
+     <br>
+    </p>
+   </div>
+   <div class='col-12 mt-4'>
+    <h5 class='mbr-section-subtitle mbr-fonts-style mb-3 display-7'>
+     <strong>حمل التطبيق</strong>
+    </h5>
+    <div class='social-row display-7 justify-content-end'>
+
+     <a
+      href='https://play.google.com/store/apps/details?id=com.myth.nwselk'
+      class='m-2'
+     >
+      <img
+       src='assets/images/google-play-badge.svg'
+       height='50'
+       alt=''
+      >
+     </a>
+     <a
+      href='https://apps.apple.com/app/id1615977334'
+      class='m-2'
+     >
+      <img
+       src='assets/images/app-store-badge.svg'
+       height='50'
+       alt=''
+      >
+     </a>
+    </div>
+   </div>
+   <div class='col-12 mt-4'>
+    <p class='mbr-text mb-0 mbr-fonts-style copyright align-center display-7'>جميع الحقوق محفوظة&nbsp;© تطبيق نوصلك</p>
+   </div>
+  </div>
+ </div>
+</section>

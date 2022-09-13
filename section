@@ -1,0 +1,20 @@
+
+<section
+ class='display-7'
+ style='padding: 0;align-items: center;justify-content: center;flex-wrap: wrap; align-content: center;display: flex;position: relative;height: 1rem;'
+>
+ <a
+  href='https://mobiri.se/'
+  style='flex: 1 1;height: 1rem;position: absolute;width: 100%;z-index: 1;'
+ ></a>
+ <p
+  style='margin: 0;text-align: center;'
+  class='display-7'
+ >
+ </p>
+ <a
+  style='z-index:1'
+  href='https://mobirise.com/website-maker.html'
+ >
+ </a>
+</section>
