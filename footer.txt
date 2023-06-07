@@ -46,7 +46,7 @@
     </h5>
     <ul class='list mbr-fonts-style display-4'>
      <li class='mbr-text item-wrap'>الرياض - حي العوالي - طريق نجم الدين</li>
-     <li class='mbr-text item-wrap'>السجل التجاري: 1010751371</li>
+     <li class='mbr-text item-wrap'>السجل التجاري: 1010886668</li>
     </ul>
    </div>
    <div class='col-12 col-md-6 col-lg-3'>
@@ -97,7 +97,7 @@
     </div>
    </div>
    <div class='col-12 mt-4'>
-    <p class='mbr-text mb-0 mbr-fonts-style copyright align-center display-7'>جميع الحقوق محفوظة&nbsp;© تطبيق نوصلك</p>
+    <p class='mbr-text mb-0 mbr-fonts-style copyright align-center display-7'>جميع الحقوق محفوظة&nbsp;© شركة نوصلك لتقنية المعلومات</p>
    </div>
   </div>
  </div>
