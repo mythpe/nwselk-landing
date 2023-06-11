@@ -5680,8 +5680,8 @@ img.u-image,
 }
 .u-back-image.u-image-contain,
 .u-image.u-image-contain {
-  object-fit: contain;
-  background-size: contain;
+  object-fit: cover;
+  background-size: cover;
 }
 .u-back-image.u-image-tiles,
 .u-image.u-image-tiles {
