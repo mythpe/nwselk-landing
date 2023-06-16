@@ -82,6 +82,22 @@
 <body
   class='u-body u-xl-mode'
 >
+<script>
+    try {
+        if (window.location.search.toLowerCase().indexOf("dapp") > -1 || window.location.hash.toLowerCase().indexOf("app") > -1) {
+            if (navigator.userAgent.toLowerCase().indexOf("android") > -1) {
+                window.location.href = 'https://play.google.com/store/apps/details?id=com.myth.nwselk';
+            }
+
+            if (navigator.userAgent.toLowerCase().indexOf("iphone") > -1) {
+                window.location.href = 'https://apps.apple.com/app/id1644849101';
+            }
+            // console.log(navigator.userAgent)
+        }
+    } catch (e) {
+
+    }
+</script>
 <header
   class='u-align-right u-clearfix u-header u-sticky u-sticky-1ce5 u-headerf'
   style="padding: 15px 20px;height: 120px"
